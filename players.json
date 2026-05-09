@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "LUCAS MORAES",
+    "email": "lucas@email.com",
+    "phone": "99999-0001",
+    "favorite_position": "armador",
+    "total_stats": {
+      "steals": 8,
+      "rebounds": 28,
+      "blocks": 3,
+      "points": 115,
+      "assists": 23
+    }
+  },
+  {
+    "id": 2,
+    "name": "RAFAEL LIMA",
+    "email": "rafael@email.com",
+    "phone": "99999-0002",
+    "favorite_position": "ala",
+    "total_stats": {
+      "steals": 6,
+      "rebounds": 36,
+      "blocks": 5,
+      "points": 143,
+      "assists": 26
+    }
+  },
+  {
+    "id": 3,
+    "name": "GABRIEL SOUZA",
+    "email": "gabriel@email.com",
+    "phone": "99999-0003",
+    "favorite_position": "pivo",
+    "total_stats": {
+      "steals": 15,
+      "rebounds": 54,
+      "blocks": 11,
+      "points": 176,
+      "assists": 46
+    }
+  },
+  {
+    "id": 4,
+    "name": "BRUNO COSTA",
+    "email": "bruno@email.com",
+    "phone": "99999-0010",
+    "favorite_position": "ala-pivo",
+    "total_stats": {
+      "steals": 8,
+      "rebounds": 43,
+      "blocks": 5,
+      "points": 187,
+      "assists": 25
+    }
+  },
+  {
+    "id": 5,
+    "name": "JOAO CARVALHO",
+    "email": "joao@email.com",
+    "phone": "99999-0005",
+    "favorite_position": "ala-pivo",
+    "total_stats": {
+      "steals": 8,
+      "rebounds": 52,
+      "blocks": 8,
+      "points": 129,
+      "assists": 26
+    }
+  },
+  {
+    "id": 6,
+    "name": "MATEUS FERREIRA",
+    "email": "mateus@email.com",
+    "phone": "99999-0006",
+    "favorite_position": "armador",
+    "total_stats": {
+      "steals": 7,
+      "rebounds": 38,
+      "blocks": 6,
+      "points": 112,
+      "assists": 35
+    }
+  },
+  {
+    "id": 7,
+    "name": "TIAGO RIBEIRO",
+    "email": "tiago@email.com",
+    "phone": "99999-0007",
+    "favorite_position": "ala",
+    "total_stats": {
+      "steals": 11,
+      "rebounds": 52,
+      "blocks": 8,
+      "points": 180,
+      "assists": 31
+    }
+  },
+  {
+    "id": 8,
+    "name": "CAIO MENDES",
+    "email": "caio@email.com",
+    "phone": "99999-0008",
+    "favorite_position": "pivo",
+    "total_stats": {
+      "steals": 19,
+      "rebounds": 40,
+      "blocks": 6,
+      "points": 103,
+      "assists": 26
+    }
+  },
+  {
+    "id": 9,
+    "name": "FELIPE BARROS",
+    "email": "felipe@email.com",
+    "phone": "99999-0009",
+    "favorite_position": "armador",
+    "total_stats": {
+      "steals": 6,
+      "rebounds": 21,
+      "blocks": 2,
+      "points": 62,
+      "assists": 18
+    }
+  },
+  {
+    "id": 10,
+    "name": "DANIEL PEREIRA",
+    "email": "daniel@email.com",
+    "phone": "99999-0011",
+    "favorite_position": "ala-pivo",
+    "total_stats": {
+      "steals": 8,
+      "rebounds": 37,
+      "blocks": 6,
+      "points": 94,
+      "assists": 23
+    }
+  }
+]
