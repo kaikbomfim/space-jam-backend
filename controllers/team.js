@@ -14,6 +14,9 @@ async function getTeam(req, res) {
     const id = req.params.id;
     if (id && Number(id)) {
       const team = await teamService.getTeamById(id);
+      if (!team) {
+        throw { status: 404, message: "Time não encontrado" };
+      }
       res.json(team);
     } else {
       res.status(422).json({ message: "ID inválido" });

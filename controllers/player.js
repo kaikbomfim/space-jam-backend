@@ -14,6 +14,9 @@ async function getPlayer(req, res) {
     const id = req.params.id;
     if (id && Number(id)) {
       const player = await playerService.getPlayerById(id);
+      if (!player) {
+        throw { status: 404, message: "Jogador não encontrado" };
+      }
       res.json(player);
     } else {
       res.status(422).json({ message: "ID inválido" });

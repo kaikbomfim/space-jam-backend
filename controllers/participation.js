@@ -14,6 +14,9 @@ async function getParticipation(req, res) {
     const id = req.params.id;
     if (id && Number(id)) {
       const participation = await participationService.getParticipationById(id);
+      if (!participation) {
+        throw { status: 404, message: "Participação não encontrada" };
+      }
       res.json(participation);
     } else {
       res.status(422).json({ message: "ID inválido" });
