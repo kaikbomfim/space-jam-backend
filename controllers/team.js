@@ -1,26 +1,20 @@
-const {
-  getTodosLivros,
-  getLivroPorId,
-  insereLivro,
-  atualizaLivro,
-  deletaLivro,
-} = require("../services/livros");
+const teamService = require("../services/team");
 
-async function getLivros(req, res) {
+async function getTeams(req, res) {
   try {
-    const livros = await getTodosLivros();
-    res.json(livros);
+    const teams = await teamService.getTeams();
+    res.json(teams);
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
 }
 
-async function getLivro(req, res) {
+async function getTeam(req, res) {
   try {
     const id = req.params.id;
     if (id && Number(id)) {
-      const livro = await getLivroPorId(id);
-      res.json(livro);
+      const team = await teamService.getTeamById(id);
+      res.json(team);
     } else {
       res.status(422).json({ message: "ID inválido" });
     }
@@ -29,12 +23,12 @@ async function getLivro(req, res) {
   }
 }
 
-async function postLivro(req, res) {
+async function postTeam(req, res) {
   try {
-    const livroNovo = req.body;
-    if (livroNovo.nome) {
-      await insereLivro(livroNovo);
-      res.status(201).json({ message: "Livro adicionado com sucesso" });
+    const team = req.body;
+    if (team.name) {
+      await teamService.createTeam(team);
+      res.status(201).json({ message: "Time adicionado com sucesso" });
     } else {
       res.status(422).json({ message: "O campo nome é obrigatório" });
     }
@@ -43,13 +37,13 @@ async function postLivro(req, res) {
   }
 }
 
-async function patchLivro(req, res) {
+async function patchTeam(req, res) {
   try {
     const id = req.params.id;
     if (id && Number(id)) {
-      const livro = req.body;
-      await atualizaLivro(livro, id);
-      res.send("Livro atualizado com sucesso");
+      const team = req.body;
+      await teamService.updateTeam(team, id);
+      res.send("Time atualizado com sucesso");
     } else {
       res.status(422).json({ message: "ID inválido" });
     }
@@ -58,12 +52,12 @@ async function patchLivro(req, res) {
   }
 }
 
-async function deleteLivro(req, res) {
+async function deleteTeam(req, res) {
   try {
     const id = req.params.id;
     if (id && Number(id)) {
-      await deletaLivro(id);
-      res.send("Livro deletado com sucesso");
+      await teamService.deleteTeam(id);
+      res.send("Time deletado com sucesso");
     } else {
       res.status(422).json({ message: "ID inválido" });
     }
@@ -72,4 +66,4 @@ async function deleteLivro(req, res) {
   }
 }
 
-module.exports = { getLivros, getLivro, postLivro, patchLivro, deleteLivro };
+module.exports = { getTeams, getTeam, postTeam, patchTeam, deleteTeam };
