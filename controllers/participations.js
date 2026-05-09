@@ -13,7 +13,7 @@ async function getOneParticipation(req, res) {
   try {
     const { id } = req.params;
 
-    if (!validateId(id)) return res.status(422).json({ message: "ID inválido" });
+    if (!(id && Number(id))) return res.status(422).json({ message: "ID inválido" });
 
     const participation = await participationsService.getOneParticipation(id);
     res.json(participation);
@@ -25,8 +25,9 @@ async function getOneParticipation(req, res) {
 async function createParticipation(req, res) {
   try {
     const { body } = req;
+    const { game_id, team_id, player_id } = body;
 
-    if (!validateBody(body))
+    if (!(game_id && Number(game_id) && team_id && Number(team_id) && player_id && Number(player_id)))
       return res.status(422).json({
         message: "Os campos game_id, team_id e player_id são obrigatórios e devem ser numéricos",
       });
@@ -42,11 +43,12 @@ async function updateParticipation(req, res) {
   try {
     const { id } = req.params;
 
-    if (!validateId(id)) return res.status(422).json({ message: "ID inválido" });
+    if (!(id && Number(id))) return res.status(422).json({ message: "ID inválido" });
 
     const { body } = req;
+    const { game_id, team_id, player_id } = body;
 
-    if (!validateBody(body))
+    if (!(game_id && Number(game_id) && team_id && Number(team_id) && player_id && Number(player_id)))
       return res.status(422).json({
         message: "Os campos game_id, team_id e player_id são obrigatórios e devem ser numéricos",
       });
@@ -62,22 +64,13 @@ async function deleteParticipation(req, res) {
   try {
     const { id } = req.params;
 
-    if (!validateId(id)) return res.status(422).json({ message: "ID inválido" });
+    if (!(id && Number(id))) return res.status(422).json({ message: "ID inválido" });
 
     await participationsService.deleteParticipation(id);
     res.send("Participação removida com sucesso");
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
-}
-
-function validateId(id) {
-  return id && Number(id);
-}
-
-function validateBody(body) {
-  const { game_id, team_id, player_id } = body;
-  return validateId(game_id) && validateId(team_id) && validateId(player_id);
 }
 
 module.exports = {
