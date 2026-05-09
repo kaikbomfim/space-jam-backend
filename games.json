@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "location": "Quadra Central",
+    "status": "encerrado",
+    "matches": [
+      {
+        "id": 1,
+        "team_1": {
+          "name": "RAPTORS",
+          "total_score": 80
+        },
+        "team_2": {
+          "name": "WOLVES",
+          "total_score": 75
+        },
+        "end_date": "2024-03-05T18:40:00Z",
+        "team_1_id": 1,
+        "team_2_id": 2,
+        "result": "time1",
+        "start_date": "2024-03-05T18:00:00Z"
+      },
+      {
+        "id": 2,
+        "team_1": {
+          "name": "RAPTORS",
+          "total_score": 68
+        },
+        "team_2": {
+          "name": "WOLVES",
+          "total_score": 72
+        },
+        "end_date": "2024-03-05T19:25:00Z",
+        "team_1_id": 1,
+        "team_2_id": 2,
+        "result": "time2",
+        "start_date": "2024-03-05T18:45:00Z"
+      }
+    ],
+    "start_date": "2024-03-05T18:00:00Z",
+    "total_value": 120,
+    "end_date": "2024-03-05T19:30:00Z",
+    "player_limit": {
+      "max": 10,
+      "min": 6
+    }
+  }
+]
