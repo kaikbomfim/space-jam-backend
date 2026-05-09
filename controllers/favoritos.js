@@ -4,7 +4,7 @@ const {
   insereFavorito,
   atualizaFavorito,
   deletaFavorito,
-} = require("../servicos/favoritos");
+} = require("../services/favoritos");
 
 async function getFavoritos(req, res) {
   try {

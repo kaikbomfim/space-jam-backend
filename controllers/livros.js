@@ -4,7 +4,7 @@ const {
   insereLivro,
   atualizaLivro,
   deletaLivro,
-} = require("../servicos/livros");
+} = require("../services/livros");
 
 async function getLivros(req, res) {
   try {
