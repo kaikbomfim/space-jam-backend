@@ -29,6 +29,9 @@ async function getPlayer(req, res) {
 async function postPlayer(req, res) {
   try {
     const player = req.body;
+    if (!player) {
+      throw { status: 400, message: "Jogador é obrigatório" };
+    }
     if (player.name && player.email) {
       await playerService.createPlayer(player);
       res.status(201).json({ message: "Jogador adicionado com sucesso" });
@@ -47,6 +50,9 @@ async function patchPlayer(req, res) {
     const id = req.params.id;
     if (id && Number(id)) {
       const player = req.body;
+      if (!player) {
+        throw { status: 400, message: "Jogador é obrigatório" };
+      }
       await playerService.updatePlayer(player, id);
       res.send("Jogador atualizado com sucesso");
     } else {

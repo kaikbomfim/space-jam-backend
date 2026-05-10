@@ -29,6 +29,9 @@ async function getParticipation(req, res) {
 async function postParticipation(req, res) {
   try {
     const participation = req.body;
+    if (!participation) {
+      throw { status: 400, message: "Participação é obrigatória" };
+    }
     if (
       participation.game_id &&
       Number(participation.game_id) &&
@@ -55,6 +58,9 @@ async function patchParticipation(req, res) {
     const id = req.params.id;
     if (id && Number(id)) {
       const participation = req.body;
+      if (!participation) {
+        throw { status: 400, message: "Participação é obrigatória" };
+      }
       if (
         participation.game_id &&
         Number(participation.game_id) &&

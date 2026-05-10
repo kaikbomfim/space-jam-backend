@@ -22,13 +22,16 @@ async function getTeam(req, res) {
       res.status(422).json({ message: "ID inválido" });
     }
   } catch (error) {
-    res.status(500).send({ message: error.message });
+    res.status(500).json({ message: error.message });
   }
 }
 
 async function postTeam(req, res) {
   try {
     const team = req.body;
+    if (!team) {
+      throw { status: 400, message: "Time é obrigatório" };
+    }
     if (team.name) {
       await teamService.createTeam(team);
       res.status(201).json({ message: "Time adicionado com sucesso" });
@@ -45,10 +48,15 @@ async function patchTeam(req, res) {
     const id = req.params.id;
     if (id && Number(id)) {
       const team = req.body;
-      await teamService.updateTeam(team, id);
-      res.send("Time atualizado com sucesso");
-    } else {
-      res.status(422).json({ message: "ID inválido" });
+      if (!team) {
+        throw { status: 400, message: "Time é obrigatório" };
+      }
+      if (team.name) {
+        await teamService.updateTeam(team, id);
+        res.send("Time atualizado com sucesso");
+      } else {
+        res.status(422).json({ message: "O campo nome é obrigatório" });
+      }
     }
   } catch (error) {
     res.status(500).json({ message: error.message });
