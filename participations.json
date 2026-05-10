@@ -1,1 +1,1542 @@
-[{"id":1,"game":{"location":"Quadra Central","status":"encerrado","matches":{"team_1":{"name":"RAPTORS","total_score":80},"team_2":{"name":"WOLVES","total_score":75},"end_date":"2024-03-05T18:40:00Z","team_1_id":1,"team_2_id":2,"result":"time1","start_date":"2024-03-05T18:00:00Z"},"match_id":1,"start_date":"2024-03-05T18:00:00Z","total_value":120,"end_date":"2024-03-05T19:30:00Z","player_limit":{"max":10,"min":6}},"team":{"name":"RAPTORS"},"game_id":1,"team_id":1,"player":{"name":"LUCAS MORAES","email":"lucas@email.com","phone":"99999-0001","payment":{"completed":1,"amount_paid":15,"payment_date":"2024-03-04T00:00:00Z"},"confirmation_date":"2024-02-25T00:00:00Z","favorite_position":"armador","match_stats":{"steals":4,"rebounds":8,"blocks":2,"points":42,"assists":10}},"player_id":1},{"id":2,"game":{"location":"Quadra Norte","status":"encerrado","matches":{"team_1":{"name":"HAWKS","total_score":85},"team_2":{"name":"TITANS","total_score":60},"end_date":"2024-05-20T17:40:00Z","team_1_id":3,"team_2_id":4,"result":"time1","start_date":"2024-05-20T17:00:00Z"},"match_id":3,"start_date":"2024-05-20T17:00:00Z","total_value":120,"end_date":"2024-05-20T18:30:00Z","player_limit":{"max":10,"min":6}},"team":{"name":"HAWKS"},"game_id":2,"team_id":3,"player":{"name":"LUCAS MORAES","email":"lucas@email.com","phone":"99999-0001","payment":{"completed":1,"amount_paid":20,"payment_date":"2024-05-19T00:00:00Z"},"confirmation_date":"2024-05-05T00:00:00Z","favorite_position":"armador","match_stats":{"steals":2,"rebounds":10,"blocks":0,"points":50,"assists":6}},"player_id":1},{"id":3,"game":{"location":"Quadra Oeste","status":"encerrado","matches":{"team_1":{"name":"LIONS","total_score":30},"team_2":{"name":"EAGLES","total_score":25},"end_date":"2025-07-20T19:45:00Z","team_1_id":9,"team_2_id":10,"result":"time1","start_date":"2025-07-20T19:00:00Z"},"match_id":9,"start_date":"2025-07-20T19:00:00Z","total_value":180,"end_date":"2025-07-20T20:45:00Z","player_limit":{"max":12,"min":8}},"team":{"name":"LIONS"},"game_id":5,"team_id":9,"player":{"name":"LUCAS MORAES","email":"lucas@email.com","phone":"99999-0001","payment":{"completed":1,"amount_paid":22.5,"payment_date":"2025-07-19T00:00:00Z"},"confirmation_date":"2025-07-11T00:00:00Z","favorite_position":"armador","match_stats":{"steals":2,"rebounds":10,"blocks":1,"points":23,"assists":7}},"player_id":1},{"id":4,"game":{"location":"Quadra Central","status":"encerrado","matches":{"team_1":{"name":"RAPTORS","total_score":80},"team_2":{"name":"WOLVES","total_score":75},"end_date":"2024-03-05T18:40:00Z","team_1_id":1,"team_2_id":2,"result":"time1","start_date":"2024-03-05T18:00:00Z"},"match_id":1,"start_date":"2024-03-05T18:00:00Z","total_value":120,"end_date":"2024-03-05T19:30:00Z","player_limit":{"max":10,"min":6}},"team":{"name":"RAPTORS"},"game_id":1,"team_id":1,"player":{"name":"RAFAEL LIMA","email":"rafael@email.com","phone":"99999-0002","payment":{"completed":1,"amount_paid":15,"payment_date":"2024-03-04T00:00:00Z"},"confirmation_date":"2024-02-26T00:00:00Z","favorite_position":"ala","match_stats":{"steals":2,"rebounds":10,"blocks":0,"points":26,"assists":6}},"player_id":2},{"id":5,"game":{"location":"Quadra Norte","status":"encerrado","matches":{"team_1":{"name":"HAWKS","total_score":85},"team_2":{"name":"TITANS","total_score":60},"end_date":"2024-05-20T17:40:00Z","team_1_id":3,"team_2_id":4,"result":"time1","start_date":"2024-05-20T17:00:00Z"},"match_id":3,"start_date":"2024-05-20T17:00:00Z","total_value":120,"end_date":"2024-05-20T18:30:00Z","player_limit":{"max":10,"min":6}},"team":{"name":"TITANS"},"game_id":2,"team_id":4,"player":{"name":"RAFAEL LIMA","email":"rafael@email.com","phone":"99999-0002","payment":{"completed":1,"amount_paid":20,"payment_date":"2024-05-19T00:00:00Z"},"confirmation_date":"2024-05-05T00:00:00Z","favorite_position":"ala","match_stats":{"steals":2,"rebounds":8,"blocks":2,"points":44,"assists":4}},"player_id":2},{"id":6,"game":{"location":"Quadra Leste","status":"encerrado","matches":{"team_1":{"name":"VIKINGS","total_score":78},"team_2":{"name":"TEXANS","total_score":77},"end_date":"2025-07-10T19:10:00Z","team_1_id":7,"team_2_id":8,"result":"time1","start_date":"2025-07-10T18:30:00Z"},"match_id":7,"start_date":"2025-07-10T18:30:00Z","total_value":180,"end_date":"2025-07-10T20:00:00Z","player_limit":{"max":12,"min":8}},"team":{"name":"TEXANS"},"game_id":4,"team_id":8,"player":{"name":"RAFAEL LIMA","email":"rafael@email.com","phone":"99999-0002","payment":{"completed":1,"amount_paid":22.5,"payment_date":"2025-07-09T00:00:00Z"},"confirmation_date":"2025-06-28T00:00:00Z","favorite_position":"ala","match_stats":{"steals":1,"rebounds":7,"blocks":1,"points":43,"assists":7}},"player_id":2},{"id":7,"game":{"location":"Quadra Oeste","status":"encerrado","matches":{"team_1":{"name":"LIONS","total_score":30},"team_2":{"name":"EAGLES","total_score":25},"end_date":"2025-07-20T19:45:00Z","team_1_id":9,"team_2_id":10,"result":"time1","start_date":"2025-07-20T19:00:00Z"},"match_id":9,"start_date":"2025-07-20T19:00:00Z","total_value":180,"end_date":"2025-07-20T20:45:00Z","player_limit":{"max":12,"min":8}},"team":{"name":"EAGLES"},"game_id":5,"team_id":10,"player":{"name":"RAFAEL LIMA","email":"rafael@email.com","phone":"99999-0002","payment":{"completed":1,"amount_paid":22.5,"payment_date":"2025-07-19T00:00:00Z"},"confirmation_date":"2025-07-12T00:00:00Z","favorite_position":"ala","match_stats":{"steals":1,"rebounds":11,"blocks":2,"points":30,"assists":9}},"player_id":2},{"id":8,"game":{"location":"Quadra Central","status":"encerrado","matches":{"team_1":{"name":"RAPTORS","total_score":80},"team_2":{"name":"WOLVES","total_score":75},"end_date":"2024-03-05T18:40:00Z","team_1_id":1,"team_2_id":2,"result":"time1","start_date":"2024-03-05T18:00:00Z"},"match_id":1,"start_date":"2024-03-05T18:00:00Z","total_value":120,"end_date":"2024-03-05T19:30:00Z","player_limit":{"max":10,"min":6}},"team":{"name":"RAPTORS"},"game_id":1,"team_id":1,"player":{"name":"GABRIEL SOUZA","email":"gabriel@email.com","phone":"99999-0003","payment":{"completed":1,"amount_paid":15,"payment_date":"2024-03-04T00:00:00Z"},"confirmation_date":"2024-02-27T00:00:00Z","favorite_position":"pivo","match_stats":{"steals":4,"rebounds":8,"blocks":6,"points":24,"assists":10}},"player_id":3},{"id":9,"game":{"location":"Quadra Norte","status":"encerrado","matches":{"team_1":{"name":"HAWKS","total_score":85},"team_2":{"name":"TITANS","total_score":60},"end_date":"2024-05-20T17:40:00Z","team_1_id":3,"team_2_id":4,"result":"time1","start_date":"2024-05-20T17:00:00Z"},"match_id":3,"start_date":"2024-05-20T17:00:00Z","total_value":120,"end_date":"2024-05-20T18:30:00Z","player_limit":{"max":10,"min":6}},"team":{"name":"HAWKS"},"game_id":2,"team_id":3,"player":{"name":"GABRIEL SOUZA","email":"gabriel@email.com","phone":"99999-0003","payment":{"completed":1,"amount_paid":20,"payment_date":"2024-05-19T00:00:00Z"},"confirmation_date":"2024-05-07T00:00:00Z","favorite_position":"pivo","match_stats":{"steals":4,"rebounds":12,"blocks":2,"points":53,"assists":8}},"player_id":3},{"id":10,"game":{"location":"Quadra Sul","status":"encerrado","matches":{"team_1":{"name":"BEARS","total_score":66},"team_2":{"name":"GIANTS","total_score":61},"end_date":"2025-06-11T19:45:00Z","team_1_id":5,"team_2_id":6,"result":"time1","start_date":"2025-06-11T19:00:00Z"},"match_id":5,"start_date":"2025-06-11T19:00:00Z","total_value":140,"end_date":"2025-06-11T20:45:00Z","player_limit":{"max":10,"min":6}},"team":{"name":"BEARS"},"game_id":3,"team_id":5,"player":{"name":"GABRIEL SOUZA","email":"gabriel@email.com","phone":"99999-0003","payment":{"completed":1,"amount_paid":17.5,"payment_date":"2025-06-10T00:00:00Z"},"confirmation_date":"2025-06-02T00:00:00Z","favorite_position":"pivo","match_stats":{"steals":3,"rebounds":13,"blocks":1,"points":30,"assists":9}},"player_id":3},{"id":11,"game":{"location":"Quadra Leste","status":"encerrado","matches":{"team_1":{"name":"VIKINGS","total_score":78},"team_2":{"name":"TEXANS","total_score":77},"end_date":"2025-07-10T19:10:00Z","team_1_id":7,"team_2_id":8,"result":"time1","start_date":"2025-07-10T18:30:00Z"},"match_id":7,"start_date":"2025-07-10T18:30:00Z","total_value":180,"end_date":"2025-07-10T20:00:00Z","player_limit":{"max":12,"min":8}},"team":{"name":"VIKINGS"},"game_id":4,"team_id":7,"player":{"name":"GABRIEL SOUZA","email":"gabriel@email.com","phone":"99999-0003","payment":{"completed":1,"amount_paid":22.5,"payment_date":"2025-07-09T00:00:00Z"},"confirmation_date":"2025-06-28T00:00:00Z","favorite_position":"pivo","match_stats":{"steals":3,"rebounds":8,"blocks":1,"points":52,"assists":9}},"player_id":3},{"id":12,"game":{"location":"Quadra Oeste","status":"encerrado","matches":{"team_1":{"name":"LIONS","total_score":30},"team_2":{"name":"EAGLES","total_score":25},"end_date":"2025-07-20T19:45:00Z","team_1_id":9,"team_2_id":10,"result":"time1","start_date":"2025-07-20T19:00:00Z"},"match_id":9,"start_date":"2025-07-20T19:00:00Z","total_value":180,"end_date":"2025-07-20T20:45:00Z","player_limit":{"max":12,"min":8}},"team":{"name":"LIONS"},"game_id":5,"team_id":9,"player":{"name":"GABRIEL SOUZA","email":"gabriel@email.com","phone":"99999-0003","payment":{"completed":1,"amount_paid":22.5,"payment_date":"2025-07-19T00:00:00Z"},"confirmation_date":"2025-07-13T00:00:00Z","favorite_position":"pivo","match_stats":{"steals":1,"rebounds":13,"blocks":1,"points":17,"assists":10}},"player_id":3},{"id":13,"game":{"location":"Quadra Central","status":"encerrado","matches":{"team_1":{"name":"RAPTORS","total_score":80},"team_2":{"name":"WOLVES","total_score":75},"end_date":"2024-03-05T18:40:00Z","team_1_id":1,"team_2_id":2,"result":"time1","start_date":"2024-03-05T18:00:00Z"},"match_id":1,"start_date":"2024-03-05T18:00:00Z","total_value":120,"end_date":"2024-03-05T19:30:00Z","player_limit":{"max":10,"min":6}},"team":{"name":"RAPTORS"},"game_id":1,"team_id":1,"player":{"name":"BRUNO COSTA","email":"bruno@email.com","phone":"99999-0010","payment":{"completed":1,"amount_paid":15,"payment_date":"2024-03-04T00:00:00Z"},"confirmation_date":"2024-02-28T00:00:00Z","favorite_position":"ala-armador","match_stats":{"steals":2,"rebounds":10,"blocks":0,"points":56,"assists":6}},"player_id":4},{"id":14,"game":{"location":"Quadra Norte","status":"encerrado","matches":{"team_1":{"name":"HAWKS","total_score":85},"team_2":{"name":"TITANS","total_score":60},"end_date":"2024-05-20T17:40:00Z","team_1_id":3,"team_2_id":4,"result":"time1","start_date":"2024-05-20T17:00:00Z"},"match_id":3,"start_date":"2024-05-20T17:00:00Z","total_value":120,"end_date":"2024-05-20T18:30:00Z","player_limit":{"max":10,"min":6}},"team":{"name":"TITANS"},"game_id":2,"team_id":4,"player":{"name":"BRUNO COSTA","email":"bruno@email.com","phone":"99999-0010","payment":{"completed":1,"amount_paid":20,"payment_date":"2024-05-19T00:00:00Z"},"confirmation_date":"2024-05-08T00:00:00Z","favorite_position":"ala-armador","match_stats":{"steals":2,"rebounds":10,"blocks":0,"points":54,"assists":6}},"player_id":4},{"id":15,"game":{"location":"Quadra Sul","status":"encerrado","matches":{"team_1":{"name":"BEARS","total_score":66},"team_2":{"name":"GIANTS","total_score":61},"end_date":"2025-06-11T19:45:00Z","team_1_id":5,"team_2_id":6,"result":"time1","start_date":"2025-06-11T19:00:00Z"},"match_id":5,"start_date":"2025-06-11T19:00:00Z","total_value":140,"end_date":"2025-06-11T20:45:00Z","player_limit":{"max":10,"min":6}},"team":{"name":"BEARS"},"game_id":3,"team_id":5,"player":{"name":"BRUNO COSTA","email":"bruno@email.com","phone":"99999-0010","payment":{"completed":1,"amount_paid":17.5,"payment_date":"2025-06-10T00:00:00Z"},"confirmation_date":"2025-06-03T00:00:00Z","favorite_position":"ala-armador","match_stats":{"steals":2,"rebounds":12,"blocks":3,"points":34,"assists":5}},"player_id":4},{"id":16,"game":{"location":"Quadra Leste","status":"encerrado","matches":{"team_1":{"name":"VIKINGS","total_score":78},"team_2":{"name":"TEXANS","total_score":77},"end_date":"2025-07-10T19:10:00Z","team_1_id":7,"team_2_id":8,"result":"time1","start_date":"2025-07-10T18:30:00Z"},"match_id":7,"start_date":"2025-07-10T18:30:00Z","total_value":180,"end_date":"2025-07-10T20:00:00Z","player_limit":{"max":12,"min":8}},"team":{"name":"VIKINGS"},"game_id":4,"team_id":7,"player":{"name":"BRUNO COSTA","email":"bruno@email.com","phone":"99999-0010","payment":{"completed":1,"amount_paid":22.5,"payment_date":"2025-07-09T00:00:00Z"},"confirmation_date":"2025-07-01T00:00:00Z","favorite_position":"ala-armador","match_stats":{"steals":2,"rebounds":11,"blocks":2,"points":43,"assists":8}},"player_id":4},{"id":17,"game":{"location":"Quadra Central","status":"encerrado","matches":{"team_1":{"name":"RAPTORS","total_score":80},"team_2":{"name":"WOLVES","total_score":75},"end_date":"2024-03-05T18:40:00Z","team_1_id":1,"team_2_id":2,"result":"time1","start_date":"2024-03-05T18:00:00Z"},"match_id":1,"start_date":"2024-03-05T18:00:00Z","total_value":120,"end_date":"2024-03-05T19:30:00Z","player_limit":{"max":10,"min":6}},"team":{"name":"WOLVES"},"game_id":1,"team_id":2,"player":{"name":"JOAO CARVALHO","email":"joao@email.com","phone":"99999-0005","payment":{"completed":1,"amount_paid":15,"payment_date":"2024-03-04T00:00:00Z"},"confirmation_date":"2024-02-29T00:00:00Z","favorite_position":"ala-pivo","match_stats":{"steals":2,"rebounds":20,"blocks":4,"points":40,"assists":4}},"player_id":5},{"id":18,"game":{"location":"Quadra Sul","status":"encerrado","matches":{"team_1":{"name":"BEARS","total_score":66},"team_2":{"name":"GIANTS","total_score":61},"end_date":"2025-06-11T19:45:00Z","team_1_id":5,"team_2_id":6,"result":"time1","start_date":"2025-06-11T19:00:00Z"},"match_id":5,"start_date":"2025-06-11T19:00:00Z","total_value":140,"end_date":"2025-06-11T20:45:00Z","player_limit":{"max":10,"min":6}},"team":{"name":"BEARS"},"game_id":3,"team_id":5,"player":{"name":"JOAO CARVALHO","email":"joao@email.com","phone":"99999-0005","payment":{"completed":1,"amount_paid":17.5,"payment_date":"2025-06-10T00:00:00Z"},"confirmation_date":"2025-06-04T00:00:00Z","favorite_position":"ala-pivo","match_stats":{"steals":3,"rebounds":15,"blocks":2,"points":29,"assists":8}},"player_id":5},{"id":19,"game":{"location":"Quadra Leste","status":"encerrado","matches":{"team_1":{"name":"VIKINGS","total_score":78},"team_2":{"name":"TEXANS","total_score":77},"end_date":"2025-07-10T19:10:00Z","team_1_id":7,"team_2_id":8,"result":"time1","start_date":"2025-07-10T18:30:00Z"},"match_id":7,"start_date":"2025-07-10T18:30:00Z","total_value":180,"end_date":"2025-07-10T20:00:00Z","player_limit":{"max":12,"min":8}},"team":{"name":"VIKINGS"},"game_id":4,"team_id":7,"player":{"name":"JOAO CARVALHO","email":"joao@email.com","phone":"99999-0005","payment":{"completed":1,"amount_paid":22.5,"payment_date":"2025-07-09T00:00:00Z"},"confirmation_date":"2025-07-02T00:00:00Z","favorite_position":"ala-pivo","match_stats":{"steals":1,"rebounds":7,"blocks":1,"points":38,"assists":7}},"player_id":5},{"id":20,"game":{"location":"Quadra Oeste","status":"encerrado","matches":{"team_1":{"name":"LIONS","total_score":30},"team_2":{"name":"EAGLES","total_score":25},"end_date":"2025-07-20T19:45:00Z","team_1_id":9,"team_2_id":10,"result":"time1","start_date":"2025-07-20T19:00:00Z"},"match_id":9,"start_date":"2025-07-20T19:00:00Z","total_value":180,"end_date":"2025-07-20T20:45:00Z","player_limit":{"max":12,"min":8}},"team":{"name":"EAGLES"},"game_id":5,"team_id":10,"player":{"name":"JOAO CARVALHO","email":"joao@email.com","phone":"99999-0005","payment":{"completed":1,"amount_paid":22.5,"payment_date":"2025-07-19T00:00:00Z"},"confirmation_date":"2025-07-14T00:00:00Z","favorite_position":"ala-pivo","match_stats":{"steals":2,"rebounds":10,"blocks":1,"points":22,"assists":7}},"player_id":5},{"id":21,"game":{"location":"Quadra Central","status":"encerrado","matches":{"team_1":{"name":"RAPTORS","total_score":80},"team_2":{"name":"WOLVES","total_score":75},"end_date":"2024-03-05T18:40:00Z","team_1_id":1,"team_2_id":2,"result":"time1","start_date":"2024-03-05T18:00:00Z"},"match_id":1,"start_date":"2024-03-05T18:00:00Z","total_value":120,"end_date":"2024-03-05T19:30:00Z","player_limit":{"max":10,"min":6}},"team":{"name":"WOLVES"},"game_id":1,"team_id":2,"player":{"name":"MATEUS FERREIRA","email":"mateus@email.com","phone":"99999-0006","payment":{"completed":1,"amount_paid":15,"payment_date":"2024-03-04T00:00:00Z"},"confirmation_date":"2024-03-01T00:00:00Z","favorite_position":"armador","match_stats":{"steals":0,"rebounds":6,"blocks":2,"points":30,"assists":8}},"player_id":6},{"id":22,"game":{"location":"Quadra Sul","status":"encerrado","matches":{"team_1":{"name":"BEARS","total_score":66},"team_2":{"name":"GIANTS","total_score":61},"end_date":"2025-06-11T19:45:00Z","team_1_id":5,"team_2_id":6,"result":"time1","start_date":"2025-06-11T19:00:00Z"},"match_id":5,"start_date":"2025-06-11T19:00:00Z","total_value":140,"end_date":"2025-06-11T20:45:00Z","player_limit":{"max":10,"min":6}},"team":{"name":"BEARS"},"game_id":3,"team_id":5,"player":{"name":"MATEUS FERREIRA","email":"mateus@email.com","phone":"99999-0006","payment":{"completed":1,"amount_paid":17.5,"payment_date":"2025-06-10T00:00:00Z"},"confirmation_date":"2025-06-05T00:00:00Z","favorite_position":"armador","match_stats":{"steals":3,"rebounds":13,"blocks":1,"points":31,"assists":9}},"player_id":6},{"id":23,"game":{"location":"Quadra Leste","status":"encerrado","matches":{"team_1":{"name":"VIKINGS","total_score":78},"team_2":{"name":"TEXANS","total_score":77},"end_date":"2025-07-10T19:10:00Z","team_1_id":7,"team_2_id":8,"result":"time1","start_date":"2025-07-10T18:30:00Z"},"match_id":7,"start_date":"2025-07-10T18:30:00Z","total_value":180,"end_date":"2025-07-10T20:00:00Z","player_limit":{"max":12,"min":8}},"team":{"name":"TEXANS"},"game_id":4,"team_id":8,"player":{"name":"MATEUS FERREIRA","email":"mateus@email.com","phone":"99999-0006","payment":{"completed":1,"amount_paid":22.5,"payment_date":"2025-07-09T00:00:00Z"},"confirmation_date":"2025-07-03T00:00:00Z","favorite_position":"armador","match_stats":{"steals":3,"rebounds":8,"blocks":1,"points":38,"assists":9}},"player_id":6},{"id":24,"game":{"location":"Quadra Oeste","status":"encerrado","matches":{"team_1":{"name":"LIONS","total_score":30},"team_2":{"name":"EAGLES","total_score":25},"end_date":"2025-07-20T19:45:00Z","team_1_id":9,"team_2_id":10,"result":"time1","start_date":"2025-07-20T19:00:00Z"},"match_id":9,"start_date":"2025-07-20T19:00:00Z","total_value":180,"end_date":"2025-07-20T20:45:00Z","player_limit":{"max":12,"min":8}},"team":{"name":"LIONS"},"game_id":5,"team_id":9,"player":{"name":"MATEUS FERREIRA","email":"mateus@email.com","phone":"99999-0006","payment":{"completed":1,"amount_paid":22.5,"payment_date":"2025-07-19T00:00:00Z"},"confirmation_date":"2025-07-15T00:00:00Z","favorite_position":"armador","match_stats":{"steals":1,"rebounds":11,"blocks":2,"points":13,"assists":9}},"player_id":6},{"id":25,"game":{"location":"Quadra Central","status":"encerrado","matches":{"team_1":{"name":"RAPTORS","total_score":80},"team_2":{"name":"WOLVES","total_score":75},"end_date":"2024-03-05T18:40:00Z","team_1_id":1,"team_2_id":2,"result":"time1","start_date":"2024-03-05T18:00:00Z"},"match_id":1,"start_date":"2024-03-05T18:00:00Z","total_value":120,"end_date":"2024-03-05T19:30:00Z","player_limit":{"max":10,"min":6}},"team":{"name":"WOLVES"},"game_id":1,"team_id":2,"player":{"name":"TIAGO RIBEIRO","email":"tiago@email.com","phone":"99999-0007","payment":{"completed":1,"amount_paid":15,"payment_date":"2024-03-04T00:00:00Z"},"confirmation_date":"2024-03-02T00:00:00Z","favorite_position":"ala","match_stats":{"steals":4,"rebounds":8,"blocks":0,"points":42,"assists":4}},"player_id":7},{"id":26,"game":{"location":"Quadra Norte","status":"encerrado","matches":{"team_1":{"name":"HAWKS","total_score":85},"team_2":{"name":"TITANS","total_score":60},"end_date":"2024-05-20T17:40:00Z","team_1_id":3,"team_2_id":4,"result":"time1","start_date":"2024-05-20T17:00:00Z"},"match_id":3,"start_date":"2024-05-20T17:00:00Z","total_value":120,"end_date":"2024-05-20T18:30:00Z","player_limit":{"max":10,"min":6}},"team":{"name":"HAWKS"},"game_id":2,"team_id":3,"player":{"name":"TIAGO RIBEIRO","email":"tiago@email.com","phone":"99999-0007","payment":{"completed":1,"amount_paid":20,"payment_date":"2024-05-19T00:00:00Z"},"confirmation_date":"2024-05-09T00:00:00Z","favorite_position":"ala","match_stats":{"steals":2,"rebounds":8,"blocks":2,"points":52,"assists":4}},"player_id":7},{"id":27,"game":{"location":"Quadra Sul","status":"encerrado","matches":{"team_1":{"name":"BEARS","total_score":66},"team_2":{"name":"GIANTS","total_score":61},"end_date":"2025-06-11T19:45:00Z","team_1_id":5,"team_2_id":6,"result":"time1","start_date":"2025-06-11T19:00:00Z"},"match_id":5,"start_date":"2025-06-11T19:00:00Z","total_value":140,"end_date":"2025-06-11T20:45:00Z","player_limit":{"max":10,"min":6}},"team":{"name":"GIANTS"},"game_id":3,"team_id":6,"player":{"name":"TIAGO RIBEIRO","email":"tiago@email.com","phone":"99999-0007","payment":{"completed":1,"amount_paid":17.5,"payment_date":"2025-06-10T00:00:00Z"},"confirmation_date":"2025-06-05T00:00:00Z","favorite_position":"ala","match_stats":{"steals":2,"rebounds":12,"blocks":3,"points":32,"assists":5}},"player_id":7},{"id":28,"game":{"location":"Quadra Leste","status":"encerrado","matches":{"team_1":{"name":"VIKINGS","total_score":78},"team_2":{"name":"TEXANS","total_score":77},"end_date":"2025-07-10T19:10:00Z","team_1_id":7,"team_2_id":8,"result":"time1","start_date":"2025-07-10T18:30:00Z"},"match_id":7,"start_date":"2025-07-10T18:30:00Z","total_value":180,"end_date":"2025-07-10T20:00:00Z","player_limit":{"max":12,"min":8}},"team":{"name":"TEXANS"},"game_id":4,"team_id":8,"player":{"name":"TIAGO RIBEIRO","email":"tiago@email.com","phone":"99999-0007","payment":{"completed":1,"amount_paid":22.5,"payment_date":"2025-07-09T00:00:00Z"},"confirmation_date":"2025-07-04T00:00:00Z","favorite_position":"ala","match_stats":{"steals":2,"rebounds":11,"blocks":2,"points":40,"assists":8}},"player_id":7},{"id":29,"game":{"location":"Quadra Oeste","status":"encerrado","matches":{"team_1":{"name":"LIONS","total_score":30},"team_2":{"name":"EAGLES","total_score":25},"end_date":"2025-07-20T19:45:00Z","team_1_id":9,"team_2_id":10,"result":"time1","start_date":"2025-07-20T19:00:00Z"},"match_id":9,"start_date":"2025-07-20T19:00:00Z","total_value":180,"end_date":"2025-07-20T20:45:00Z","player_limit":{"max":12,"min":8}},"team":{"name":"LIONS"},"game_id":5,"team_id":9,"player":{"name":"TIAGO RIBEIRO","email":"tiago@email.com","phone":"99999-0007","payment":{"completed":1,"amount_paid":22.5,"payment_date":"2025-07-19T00:00:00Z"},"confirmation_date":"2025-07-16T00:00:00Z","favorite_position":"ala","match_stats":{"steals":1,"rebounds":13,"blocks":1,"points":14,"assists":10}},"player_id":7},{"id":30,"game":{"location":"Quadra Central","status":"encerrado","matches":{"team_1":{"name":"RAPTORS","total_score":80},"team_2":{"name":"WOLVES","total_score":75},"end_date":"2024-03-05T18:40:00Z","team_1_id":1,"team_2_id":2,"result":"time1","start_date":"2024-03-05T18:00:00Z"},"match_id":1,"start_date":"2024-03-05T18:00:00Z","total_value":120,"end_date":"2024-03-05T19:30:00Z","player_limit":{"max":10,"min":6}},"team":{"name":"WOLVES"},"game_id":1,"team_id":2,"player":{"name":"CAIO MENDES","email":"caio@email.com","phone":"99999-0008","payment":{"completed":1,"amount_paid":15,"payment_date":"2024-03-04T00:00:00Z"},"confirmation_date":"2024-03-03T00:00:00Z","favorite_position":"pivo","match_stats":{"steals":4,"rebounds":8,"blocks":2,"points":30,"assists":4}},"player_id":8},{"id":31,"game":{"location":"Quadra Sul","status":"encerrado","matches":{"team_1":{"name":"BEARS","total_score":66},"team_2":{"name":"GIANTS","total_score":61},"end_date":"2025-06-11T19:45:00Z","team_1_id":5,"team_2_id":6,"result":"time1","start_date":"2025-06-11T19:00:00Z"},"match_id":5,"start_date":"2025-06-11T19:00:00Z","total_value":140,"end_date":"2025-06-11T20:45:00Z","player_limit":{"max":10,"min":6}},"team":{"name":"GIANTS"},"game_id":3,"team_id":6,"player":{"name":"CAIO MENDES","email":"caio@email.com","phone":"99999-0008","payment":{"completed":1,"amount_paid":17.5,"payment_date":"2025-06-10T00:00:00Z"},"confirmation_date":"2025-06-06T00:00:00Z","favorite_position":"pivo","match_stats":{"steals":3,"rebounds":15,"blocks":2,"points":34,"assists":8}},"player_id":8},{"id":32,"game":{"location":"Quadra Leste","status":"encerrado","matches":{"team_1":{"name":"VIKINGS","total_score":78},"team_2":{"name":"TEXANS","total_score":77},"end_date":"2025-07-10T19:10:00Z","team_1_id":7,"team_2_id":8,"result":"time1","start_date":"2025-07-10T18:30:00Z"},"match_id":7,"start_date":"2025-07-10T18:30:00Z","total_value":180,"end_date":"2025-07-10T20:00:00Z","player_limit":{"max":12,"min":8}},"team":{"name":"VIKINGS"},"game_id":4,"team_id":7,"player":{"name":"CAIO MENDES","email":"caio@email.com","phone":"99999-0008","payment":{"completed":1,"amount_paid":22.5,"payment_date":"2025-07-09T00:00:00Z"},"confirmation_date":"2025-07-06T00:00:00Z","favorite_position":"pivo","match_stats":{"steals":1,"rebounds":7,"blocks":1,"points":32,"assists":7}},"player_id":8},{"id":33,"game":{"location":"Quadra Oeste","status":"encerrado","matches":{"team_1":{"name":"LIONS","total_score":30},"team_2":{"name":"EAGLES","total_score":25},"end_date":"2025-07-20T19:45:00Z","team_1_id":9,"team_2_id":10,"result":"time1","start_date":"2025-07-20T19:00:00Z"},"match_id":9,"start_date":"2025-07-20T19:00:00Z","total_value":180,"end_date":"2025-07-20T20:45:00Z","player_limit":{"max":12,"min":8}},"team":{"name":"EAGLES"},"game_id":5,"team_id":10,"player":{"name":"CAIO MENDES","email":"caio@email.com","phone":"99999-0008","payment":{"completed":1,"amount_paid":22.5,"payment_date":"2025-07-19T00:00:00Z"},"confirmation_date":"2025-07-16T00:00:00Z","favorite_position":"pivo","match_stats":{"steals":11,"rebounds":10,"blocks":1,"points":7,"assists":7}},"player_id":8},{"id":34,"game":{"location":"Quadra Sul","status":"encerrado","matches":{"team_1":{"name":"BEARS","total_score":66},"team_2":{"name":"GIANTS","total_score":61},"end_date":"2025-06-11T19:45:00Z","team_1_id":5,"team_2_id":6,"result":"time1","start_date":"2025-06-11T19:00:00Z"},"match_id":5,"start_date":"2025-06-11T19:00:00Z","total_value":140,"end_date":"2025-06-11T20:45:00Z","player_limit":{"max":10,"min":6}},"team":{"name":"GIANTS"},"game_id":3,"team_id":6,"player":{"name":"FELIPE BARROS","email":"felipe@email.com","phone":"99999-0009","payment":{"completed":1,"amount_paid":17.5,"payment_date":"2025-06-10T00:00:00Z"},"confirmation_date":"2025-06-07T00:00:00Z","favorite_position":"armador","match_stats":{"steals":3,"rebounds":13,"blocks":1,"points":25,"assists":9}},"player_id":9},{"id":35,"game":{"location":"Quadra Leste","status":"encerrado","matches":{"team_1":{"name":"VIKINGS","total_score":78},"team_2":{"name":"TEXANS","total_score":77},"end_date":"2025-07-10T19:10:00Z","team_1_id":7,"team_2_id":8,"result":"time1","start_date":"2025-07-10T18:30:00Z"},"match_id":7,"start_date":"2025-07-10T18:30:00Z","total_value":180,"end_date":"2025-07-10T20:00:00Z","player_limit":{"max":12,"min":8}},"team":{"name":"TEXANS"},"game_id":4,"team_id":8,"player":{"name":"FELIPE BARROS","email":"felipe@email.com","phone":"99999-0009","payment":{"completed":1,"amount_paid":22.5,"payment_date":"2025-07-09T00:00:00Z"},"confirmation_date":"2025-07-08T00:00:00Z","favorite_position":"armador","match_stats":{"steals":3,"rebounds":8,"blocks":1,"points":37,"assists":9}},"player_id":9}]
+[
+  {
+    "id": 1,
+    "game": {
+      "location": "Quadra Central",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "RAPTORS", "total_score": 80 },
+        "team_2": { "name": "WOLVES", "total_score": 75 },
+        "end_date": "2024-03-05T18:40:00Z",
+        "team_1_id": 1,
+        "team_2_id": 2,
+        "result": "time1",
+        "start_date": "2024-03-05T18:00:00Z"
+      },
+      "match_id": 1,
+      "start_date": "2024-03-05T18:00:00Z",
+      "total_value": 120,
+      "end_date": "2024-03-05T19:30:00Z",
+      "player_limit": { "max": 10, "min": 6 }
+    },
+    "team": { "name": "RAPTORS" },
+    "game_id": 1,
+    "team_id": 1,
+    "player": {
+      "name": "LUCAS MORAES",
+      "email": "lucas@email.com",
+      "phone": "99999-0001",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 15,
+        "payment_date": "2024-03-04T00:00:00Z"
+      },
+      "confirmation_date": "2024-02-25T00:00:00Z",
+      "favorite_position": "armador",
+      "match_stats": {
+        "steals": 4,
+        "rebounds": 8,
+        "blocks": 2,
+        "points": 42,
+        "assists": 10
+      }
+    },
+    "player_id": 1
+  },
+  {
+    "id": 2,
+    "game": {
+      "location": "Quadra Norte",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "HAWKS", "total_score": 85 },
+        "team_2": { "name": "TITANS", "total_score": 60 },
+        "end_date": "2024-05-20T17:40:00Z",
+        "team_1_id": 3,
+        "team_2_id": 4,
+        "result": "time1",
+        "start_date": "2024-05-20T17:00:00Z"
+      },
+      "match_id": 3,
+      "start_date": "2024-05-20T17:00:00Z",
+      "total_value": 120,
+      "end_date": "2024-05-20T18:30:00Z",
+      "player_limit": { "max": 10, "min": 6 }
+    },
+    "team": { "name": "HAWKS" },
+    "game_id": 2,
+    "team_id": 3,
+    "player": {
+      "name": "LUCAS MORAES",
+      "email": "lucas@email.com",
+      "phone": "99999-0001",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 20,
+        "payment_date": "2024-05-19T00:00:00Z"
+      },
+      "confirmation_date": "2024-05-05T00:00:00Z",
+      "favorite_position": "armador",
+      "match_stats": {
+        "steals": 2,
+        "rebounds": 10,
+        "blocks": 0,
+        "points": 50,
+        "assists": 6
+      }
+    },
+    "player_id": 1
+  },
+  {
+    "id": 3,
+    "game": {
+      "location": "Quadra Oeste",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "LIONS", "total_score": 30 },
+        "team_2": { "name": "EAGLES", "total_score": 25 },
+        "end_date": "2025-07-20T19:45:00Z",
+        "team_1_id": 9,
+        "team_2_id": 10,
+        "result": "time1",
+        "start_date": "2025-07-20T19:00:00Z"
+      },
+      "match_id": 9,
+      "start_date": "2025-07-20T19:00:00Z",
+      "total_value": 180,
+      "end_date": "2025-07-20T20:45:00Z",
+      "player_limit": { "max": 12, "min": 8 }
+    },
+    "team": { "name": "LIONS" },
+    "game_id": 5,
+    "team_id": 9,
+    "player": {
+      "name": "LUCAS MORAES",
+      "email": "lucas@email.com",
+      "phone": "99999-0001",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 22.5,
+        "payment_date": "2025-07-19T00:00:00Z"
+      },
+      "confirmation_date": "2025-07-11T00:00:00Z",
+      "favorite_position": "armador",
+      "match_stats": {
+        "steals": 2,
+        "rebounds": 10,
+        "blocks": 1,
+        "points": 23,
+        "assists": 7
+      }
+    },
+    "player_id": 1
+  },
+  {
+    "id": 4,
+    "game": {
+      "location": "Quadra Central",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "RAPTORS", "total_score": 80 },
+        "team_2": { "name": "WOLVES", "total_score": 75 },
+        "end_date": "2024-03-05T18:40:00Z",
+        "team_1_id": 1,
+        "team_2_id": 2,
+        "result": "time1",
+        "start_date": "2024-03-05T18:00:00Z"
+      },
+      "match_id": 1,
+      "start_date": "2024-03-05T18:00:00Z",
+      "total_value": 120,
+      "end_date": "2024-03-05T19:30:00Z",
+      "player_limit": { "max": 10, "min": 6 }
+    },
+    "team": { "name": "RAPTORS" },
+    "game_id": 1,
+    "team_id": 1,
+    "player": {
+      "name": "RAFAEL LIMA",
+      "email": "rafael@email.com",
+      "phone": "99999-0002",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 15,
+        "payment_date": "2024-03-04T00:00:00Z"
+      },
+      "confirmation_date": "2024-02-26T00:00:00Z",
+      "favorite_position": "ala",
+      "match_stats": {
+        "steals": 2,
+        "rebounds": 10,
+        "blocks": 0,
+        "points": 26,
+        "assists": 6
+      }
+    },
+    "player_id": 2
+  },
+  {
+    "id": 5,
+    "game": {
+      "location": "Quadra Norte",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "HAWKS", "total_score": 85 },
+        "team_2": { "name": "TITANS", "total_score": 60 },
+        "end_date": "2024-05-20T17:40:00Z",
+        "team_1_id": 3,
+        "team_2_id": 4,
+        "result": "time1",
+        "start_date": "2024-05-20T17:00:00Z"
+      },
+      "match_id": 3,
+      "start_date": "2024-05-20T17:00:00Z",
+      "total_value": 120,
+      "end_date": "2024-05-20T18:30:00Z",
+      "player_limit": { "max": 10, "min": 6 }
+    },
+    "team": { "name": "TITANS" },
+    "game_id": 2,
+    "team_id": 4,
+    "player": {
+      "name": "RAFAEL LIMA",
+      "email": "rafael@email.com",
+      "phone": "99999-0002",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 20,
+        "payment_date": "2024-05-19T00:00:00Z"
+      },
+      "confirmation_date": "2024-05-05T00:00:00Z",
+      "favorite_position": "ala",
+      "match_stats": {
+        "steals": 2,
+        "rebounds": 8,
+        "blocks": 2,
+        "points": 44,
+        "assists": 4
+      }
+    },
+    "player_id": 2
+  },
+  {
+    "id": 6,
+    "game": {
+      "location": "Quadra Leste",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "VIKINGS", "total_score": 78 },
+        "team_2": { "name": "TEXANS", "total_score": 77 },
+        "end_date": "2025-07-10T19:10:00Z",
+        "team_1_id": 7,
+        "team_2_id": 8,
+        "result": "time1",
+        "start_date": "2025-07-10T18:30:00Z"
+      },
+      "match_id": 7,
+      "start_date": "2025-07-10T18:30:00Z",
+      "total_value": 180,
+      "end_date": "2025-07-10T20:00:00Z",
+      "player_limit": { "max": 12, "min": 8 }
+    },
+    "team": { "name": "TEXANS" },
+    "game_id": 4,
+    "team_id": 8,
+    "player": {
+      "name": "RAFAEL LIMA",
+      "email": "rafael@email.com",
+      "phone": "99999-0002",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 22.5,
+        "payment_date": "2025-07-09T00:00:00Z"
+      },
+      "confirmation_date": "2025-06-28T00:00:00Z",
+      "favorite_position": "ala",
+      "match_stats": {
+        "steals": 1,
+        "rebounds": 7,
+        "blocks": 1,
+        "points": 43,
+        "assists": 7
+      }
+    },
+    "player_id": 2
+  },
+  {
+    "id": 7,
+    "game": {
+      "location": "Quadra Oeste",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "LIONS", "total_score": 30 },
+        "team_2": { "name": "EAGLES", "total_score": 25 },
+        "end_date": "2025-07-20T19:45:00Z",
+        "team_1_id": 9,
+        "team_2_id": 10,
+        "result": "time1",
+        "start_date": "2025-07-20T19:00:00Z"
+      },
+      "match_id": 9,
+      "start_date": "2025-07-20T19:00:00Z",
+      "total_value": 180,
+      "end_date": "2025-07-20T20:45:00Z",
+      "player_limit": { "max": 12, "min": 8 }
+    },
+    "team": { "name": "EAGLES" },
+    "game_id": 5,
+    "team_id": 10,
+    "player": {
+      "name": "RAFAEL LIMA",
+      "email": "rafael@email.com",
+      "phone": "99999-0002",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 22.5,
+        "payment_date": "2025-07-19T00:00:00Z"
+      },
+      "confirmation_date": "2025-07-12T00:00:00Z",
+      "favorite_position": "ala",
+      "match_stats": {
+        "steals": 1,
+        "rebounds": 11,
+        "blocks": 2,
+        "points": 30,
+        "assists": 9
+      }
+    },
+    "player_id": 2
+  },
+  {
+    "id": 8,
+    "game": {
+      "location": "Quadra Central",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "RAPTORS", "total_score": 80 },
+        "team_2": { "name": "WOLVES", "total_score": 75 },
+        "end_date": "2024-03-05T18:40:00Z",
+        "team_1_id": 1,
+        "team_2_id": 2,
+        "result": "time1",
+        "start_date": "2024-03-05T18:00:00Z"
+      },
+      "match_id": 1,
+      "start_date": "2024-03-05T18:00:00Z",
+      "total_value": 120,
+      "end_date": "2024-03-05T19:30:00Z",
+      "player_limit": { "max": 10, "min": 6 }
+    },
+    "team": { "name": "RAPTORS" },
+    "game_id": 1,
+    "team_id": 1,
+    "player": {
+      "name": "GABRIEL SOUZA",
+      "email": "gabriel@email.com",
+      "phone": "99999-0003",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 15,
+        "payment_date": "2024-03-04T00:00:00Z"
+      },
+      "confirmation_date": "2024-02-27T00:00:00Z",
+      "favorite_position": "pivo",
+      "match_stats": {
+        "steals": 4,
+        "rebounds": 8,
+        "blocks": 6,
+        "points": 24,
+        "assists": 10
+      }
+    },
+    "player_id": 3
+  },
+  {
+    "id": 9,
+    "game": {
+      "location": "Quadra Norte",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "HAWKS", "total_score": 85 },
+        "team_2": { "name": "TITANS", "total_score": 60 },
+        "end_date": "2024-05-20T17:40:00Z",
+        "team_1_id": 3,
+        "team_2_id": 4,
+        "result": "time1",
+        "start_date": "2024-05-20T17:00:00Z"
+      },
+      "match_id": 3,
+      "start_date": "2024-05-20T17:00:00Z",
+      "total_value": 120,
+      "end_date": "2024-05-20T18:30:00Z",
+      "player_limit": { "max": 10, "min": 6 }
+    },
+    "team": { "name": "HAWKS" },
+    "game_id": 2,
+    "team_id": 3,
+    "player": {
+      "name": "GABRIEL SOUZA",
+      "email": "gabriel@email.com",
+      "phone": "99999-0003",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 20,
+        "payment_date": "2024-05-19T00:00:00Z"
+      },
+      "confirmation_date": "2024-05-07T00:00:00Z",
+      "favorite_position": "pivo",
+      "match_stats": {
+        "steals": 4,
+        "rebounds": 12,
+        "blocks": 2,
+        "points": 53,
+        "assists": 8
+      }
+    },
+    "player_id": 3
+  },
+  {
+    "id": 10,
+    "game": {
+      "location": "Quadra Sul",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "BEARS", "total_score": 66 },
+        "team_2": { "name": "GIANTS", "total_score": 61 },
+        "end_date": "2025-06-11T19:45:00Z",
+        "team_1_id": 5,
+        "team_2_id": 6,
+        "result": "time1",
+        "start_date": "2025-06-11T19:00:00Z"
+      },
+      "match_id": 5,
+      "start_date": "2025-06-11T19:00:00Z",
+      "total_value": 140,
+      "end_date": "2025-06-11T20:45:00Z",
+      "player_limit": { "max": 10, "min": 6 }
+    },
+    "team": { "name": "BEARS" },
+    "game_id": 3,
+    "team_id": 5,
+    "player": {
+      "name": "GABRIEL SOUZA",
+      "email": "gabriel@email.com",
+      "phone": "99999-0003",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 17.5,
+        "payment_date": "2025-06-10T00:00:00Z"
+      },
+      "confirmation_date": "2025-06-02T00:00:00Z",
+      "favorite_position": "pivo",
+      "match_stats": {
+        "steals": 3,
+        "rebounds": 13,
+        "blocks": 1,
+        "points": 30,
+        "assists": 9
+      }
+    },
+    "player_id": 3
+  },
+  {
+    "id": 11,
+    "game": {
+      "location": "Quadra Leste",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "VIKINGS", "total_score": 78 },
+        "team_2": { "name": "TEXANS", "total_score": 77 },
+        "end_date": "2025-07-10T19:10:00Z",
+        "team_1_id": 7,
+        "team_2_id": 8,
+        "result": "time1",
+        "start_date": "2025-07-10T18:30:00Z"
+      },
+      "match_id": 7,
+      "start_date": "2025-07-10T18:30:00Z",
+      "total_value": 180,
+      "end_date": "2025-07-10T20:00:00Z",
+      "player_limit": { "max": 12, "min": 8 }
+    },
+    "team": { "name": "VIKINGS" },
+    "game_id": 4,
+    "team_id": 7,
+    "player": {
+      "name": "GABRIEL SOUZA",
+      "email": "gabriel@email.com",
+      "phone": "99999-0003",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 22.5,
+        "payment_date": "2025-07-09T00:00:00Z"
+      },
+      "confirmation_date": "2025-06-28T00:00:00Z",
+      "favorite_position": "pivo",
+      "match_stats": {
+        "steals": 3,
+        "rebounds": 8,
+        "blocks": 1,
+        "points": 52,
+        "assists": 9
+      }
+    },
+    "player_id": 3
+  },
+  {
+    "id": 12,
+    "game": {
+      "location": "Quadra Oeste",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "LIONS", "total_score": 30 },
+        "team_2": { "name": "EAGLES", "total_score": 25 },
+        "end_date": "2025-07-20T19:45:00Z",
+        "team_1_id": 9,
+        "team_2_id": 10,
+        "result": "time1",
+        "start_date": "2025-07-20T19:00:00Z"
+      },
+      "match_id": 9,
+      "start_date": "2025-07-20T19:00:00Z",
+      "total_value": 180,
+      "end_date": "2025-07-20T20:45:00Z",
+      "player_limit": { "max": 12, "min": 8 }
+    },
+    "team": { "name": "LIONS" },
+    "game_id": 5,
+    "team_id": 9,
+    "player": {
+      "name": "GABRIEL SOUZA",
+      "email": "gabriel@email.com",
+      "phone": "99999-0003",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 22.5,
+        "payment_date": "2025-07-19T00:00:00Z"
+      },
+      "confirmation_date": "2025-07-13T00:00:00Z",
+      "favorite_position": "pivo",
+      "match_stats": {
+        "steals": 1,
+        "rebounds": 13,
+        "blocks": 1,
+        "points": 17,
+        "assists": 10
+      }
+    },
+    "player_id": 3
+  },
+  {
+    "id": 13,
+    "game": {
+      "location": "Quadra Central",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "RAPTORS", "total_score": 80 },
+        "team_2": { "name": "WOLVES", "total_score": 75 },
+        "end_date": "2024-03-05T18:40:00Z",
+        "team_1_id": 1,
+        "team_2_id": 2,
+        "result": "time1",
+        "start_date": "2024-03-05T18:00:00Z"
+      },
+      "match_id": 1,
+      "start_date": "2024-03-05T18:00:00Z",
+      "total_value": 120,
+      "end_date": "2024-03-05T19:30:00Z",
+      "player_limit": { "max": 10, "min": 6 }
+    },
+    "team": { "name": "RAPTORS" },
+    "game_id": 1,
+    "team_id": 1,
+    "player": {
+      "name": "BRUNO COSTA",
+      "email": "bruno@email.com",
+      "phone": "99999-0010",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 15,
+        "payment_date": "2024-03-04T00:00:00Z"
+      },
+      "confirmation_date": "2024-02-28T00:00:00Z",
+      "favorite_position": "ala-armador",
+      "match_stats": {
+        "steals": 2,
+        "rebounds": 10,
+        "blocks": 0,
+        "points": 56,
+        "assists": 6
+      }
+    },
+    "player_id": 4
+  },
+  {
+    "id": 14,
+    "game": {
+      "location": "Quadra Norte",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "HAWKS", "total_score": 85 },
+        "team_2": { "name": "TITANS", "total_score": 60 },
+        "end_date": "2024-05-20T17:40:00Z",
+        "team_1_id": 3,
+        "team_2_id": 4,
+        "result": "time1",
+        "start_date": "2024-05-20T17:00:00Z"
+      },
+      "match_id": 3,
+      "start_date": "2024-05-20T17:00:00Z",
+      "total_value": 120,
+      "end_date": "2024-05-20T18:30:00Z",
+      "player_limit": { "max": 10, "min": 6 }
+    },
+    "team": { "name": "TITANS" },
+    "game_id": 2,
+    "team_id": 4,
+    "player": {
+      "name": "BRUNO COSTA",
+      "email": "bruno@email.com",
+      "phone": "99999-0010",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 20,
+        "payment_date": "2024-05-19T00:00:00Z"
+      },
+      "confirmation_date": "2024-05-08T00:00:00Z",
+      "favorite_position": "ala-armador",
+      "match_stats": {
+        "steals": 2,
+        "rebounds": 10,
+        "blocks": 0,
+        "points": 54,
+        "assists": 6
+      }
+    },
+    "player_id": 4
+  },
+  {
+    "id": 15,
+    "game": {
+      "location": "Quadra Sul",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "BEARS", "total_score": 66 },
+        "team_2": { "name": "GIANTS", "total_score": 61 },
+        "end_date": "2025-06-11T19:45:00Z",
+        "team_1_id": 5,
+        "team_2_id": 6,
+        "result": "time1",
+        "start_date": "2025-06-11T19:00:00Z"
+      },
+      "match_id": 5,
+      "start_date": "2025-06-11T19:00:00Z",
+      "total_value": 140,
+      "end_date": "2025-06-11T20:45:00Z",
+      "player_limit": { "max": 10, "min": 6 }
+    },
+    "team": { "name": "BEARS" },
+    "game_id": 3,
+    "team_id": 5,
+    "player": {
+      "name": "BRUNO COSTA",
+      "email": "bruno@email.com",
+      "phone": "99999-0010",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 17.5,
+        "payment_date": "2025-06-10T00:00:00Z"
+      },
+      "confirmation_date": "2025-06-03T00:00:00Z",
+      "favorite_position": "ala-armador",
+      "match_stats": {
+        "steals": 2,
+        "rebounds": 12,
+        "blocks": 3,
+        "points": 34,
+        "assists": 5
+      }
+    },
+    "player_id": 4
+  },
+  {
+    "id": 16,
+    "game": {
+      "location": "Quadra Leste",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "VIKINGS", "total_score": 78 },
+        "team_2": { "name": "TEXANS", "total_score": 77 },
+        "end_date": "2025-07-10T19:10:00Z",
+        "team_1_id": 7,
+        "team_2_id": 8,
+        "result": "time1",
+        "start_date": "2025-07-10T18:30:00Z"
+      },
+      "match_id": 7,
+      "start_date": "2025-07-10T18:30:00Z",
+      "total_value": 180,
+      "end_date": "2025-07-10T20:00:00Z",
+      "player_limit": { "max": 12, "min": 8 }
+    },
+    "team": { "name": "VIKINGS" },
+    "game_id": 4,
+    "team_id": 7,
+    "player": {
+      "name": "BRUNO COSTA",
+      "email": "bruno@email.com",
+      "phone": "99999-0010",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 22.5,
+        "payment_date": "2025-07-09T00:00:00Z"
+      },
+      "confirmation_date": "2025-07-01T00:00:00Z",
+      "favorite_position": "ala-armador",
+      "match_stats": {
+        "steals": 2,
+        "rebounds": 11,
+        "blocks": 2,
+        "points": 43,
+        "assists": 8
+      }
+    },
+    "player_id": 4
+  },
+  {
+    "id": 17,
+    "game": {
+      "location": "Quadra Central",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "RAPTORS", "total_score": 80 },
+        "team_2": { "name": "WOLVES", "total_score": 75 },
+        "end_date": "2024-03-05T18:40:00Z",
+        "team_1_id": 1,
+        "team_2_id": 2,
+        "result": "time1",
+        "start_date": "2024-03-05T18:00:00Z"
+      },
+      "match_id": 1,
+      "start_date": "2024-03-05T18:00:00Z",
+      "total_value": 120,
+      "end_date": "2024-03-05T19:30:00Z",
+      "player_limit": { "max": 10, "min": 6 }
+    },
+    "team": { "name": "WOLVES" },
+    "game_id": 1,
+    "team_id": 2,
+    "player": {
+      "name": "JOAO CARVALHO",
+      "email": "joao@email.com",
+      "phone": "99999-0005",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 15,
+        "payment_date": "2024-03-04T00:00:00Z"
+      },
+      "confirmation_date": "2024-02-29T00:00:00Z",
+      "favorite_position": "ala-pivo",
+      "match_stats": {
+        "steals": 2,
+        "rebounds": 20,
+        "blocks": 4,
+        "points": 40,
+        "assists": 4
+      }
+    },
+    "player_id": 5
+  },
+  {
+    "id": 18,
+    "game": {
+      "location": "Quadra Sul",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "BEARS", "total_score": 66 },
+        "team_2": { "name": "GIANTS", "total_score": 61 },
+        "end_date": "2025-06-11T19:45:00Z",
+        "team_1_id": 5,
+        "team_2_id": 6,
+        "result": "time1",
+        "start_date": "2025-06-11T19:00:00Z"
+      },
+      "match_id": 5,
+      "start_date": "2025-06-11T19:00:00Z",
+      "total_value": 140,
+      "end_date": "2025-06-11T20:45:00Z",
+      "player_limit": { "max": 10, "min": 6 }
+    },
+    "team": { "name": "BEARS" },
+    "game_id": 3,
+    "team_id": 5,
+    "player": {
+      "name": "JOAO CARVALHO",
+      "email": "joao@email.com",
+      "phone": "99999-0005",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 17.5,
+        "payment_date": "2025-06-10T00:00:00Z"
+      },
+      "confirmation_date": "2025-06-04T00:00:00Z",
+      "favorite_position": "ala-pivo",
+      "match_stats": {
+        "steals": 3,
+        "rebounds": 15,
+        "blocks": 2,
+        "points": 29,
+        "assists": 8
+      }
+    },
+    "player_id": 5
+  },
+  {
+    "id": 19,
+    "game": {
+      "location": "Quadra Leste",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "VIKINGS", "total_score": 78 },
+        "team_2": { "name": "TEXANS", "total_score": 77 },
+        "end_date": "2025-07-10T19:10:00Z",
+        "team_1_id": 7,
+        "team_2_id": 8,
+        "result": "time1",
+        "start_date": "2025-07-10T18:30:00Z"
+      },
+      "match_id": 7,
+      "start_date": "2025-07-10T18:30:00Z",
+      "total_value": 180,
+      "end_date": "2025-07-10T20:00:00Z",
+      "player_limit": { "max": 12, "min": 8 }
+    },
+    "team": { "name": "VIKINGS" },
+    "game_id": 4,
+    "team_id": 7,
+    "player": {
+      "name": "JOAO CARVALHO",
+      "email": "joao@email.com",
+      "phone": "99999-0005",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 22.5,
+        "payment_date": "2025-07-09T00:00:00Z"
+      },
+      "confirmation_date": "2025-07-02T00:00:00Z",
+      "favorite_position": "ala-pivo",
+      "match_stats": {
+        "steals": 1,
+        "rebounds": 7,
+        "blocks": 1,
+        "points": 38,
+        "assists": 7
+      }
+    },
+    "player_id": 5
+  },
+  {
+    "id": 20,
+    "game": {
+      "location": "Quadra Oeste",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "LIONS", "total_score": 30 },
+        "team_2": { "name": "EAGLES", "total_score": 25 },
+        "end_date": "2025-07-20T19:45:00Z",
+        "team_1_id": 9,
+        "team_2_id": 10,
+        "result": "time1",
+        "start_date": "2025-07-20T19:00:00Z"
+      },
+      "match_id": 9,
+      "start_date": "2025-07-20T19:00:00Z",
+      "total_value": 180,
+      "end_date": "2025-07-20T20:45:00Z",
+      "player_limit": { "max": 12, "min": 8 }
+    },
+    "team": { "name": "EAGLES" },
+    "game_id": 5,
+    "team_id": 10,
+    "player": {
+      "name": "JOAO CARVALHO",
+      "email": "joao@email.com",
+      "phone": "99999-0005",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 22.5,
+        "payment_date": "2025-07-19T00:00:00Z"
+      },
+      "confirmation_date": "2025-07-14T00:00:00Z",
+      "favorite_position": "ala-pivo",
+      "match_stats": {
+        "steals": 2,
+        "rebounds": 10,
+        "blocks": 1,
+        "points": 22,
+        "assists": 7
+      }
+    },
+    "player_id": 5
+  },
+  {
+    "id": 21,
+    "game": {
+      "location": "Quadra Central",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "RAPTORS", "total_score": 80 },
+        "team_2": { "name": "WOLVES", "total_score": 75 },
+        "end_date": "2024-03-05T18:40:00Z",
+        "team_1_id": 1,
+        "team_2_id": 2,
+        "result": "time1",
+        "start_date": "2024-03-05T18:00:00Z"
+      },
+      "match_id": 1,
+      "start_date": "2024-03-05T18:00:00Z",
+      "total_value": 120,
+      "end_date": "2024-03-05T19:30:00Z",
+      "player_limit": { "max": 10, "min": 6 }
+    },
+    "team": { "name": "WOLVES" },
+    "game_id": 1,
+    "team_id": 2,
+    "player": {
+      "name": "MATEUS FERREIRA",
+      "email": "mateus@email.com",
+      "phone": "99999-0006",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 15,
+        "payment_date": "2024-03-04T00:00:00Z"
+      },
+      "confirmation_date": "2024-03-01T00:00:00Z",
+      "favorite_position": "armador",
+      "match_stats": {
+        "steals": 0,
+        "rebounds": 6,
+        "blocks": 2,
+        "points": 30,
+        "assists": 8
+      }
+    },
+    "player_id": 6
+  },
+  {
+    "id": 22,
+    "game": {
+      "location": "Quadra Sul",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "BEARS", "total_score": 66 },
+        "team_2": { "name": "GIANTS", "total_score": 61 },
+        "end_date": "2025-06-11T19:45:00Z",
+        "team_1_id": 5,
+        "team_2_id": 6,
+        "result": "time1",
+        "start_date": "2025-06-11T19:00:00Z"
+      },
+      "match_id": 5,
+      "start_date": "2025-06-11T19:00:00Z",
+      "total_value": 140,
+      "end_date": "2025-06-11T20:45:00Z",
+      "player_limit": { "max": 10, "min": 6 }
+    },
+    "team": { "name": "BEARS" },
+    "game_id": 3,
+    "team_id": 5,
+    "player": {
+      "name": "MATEUS FERREIRA",
+      "email": "mateus@email.com",
+      "phone": "99999-0006",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 17.5,
+        "payment_date": "2025-06-10T00:00:00Z"
+      },
+      "confirmation_date": "2025-06-05T00:00:00Z",
+      "favorite_position": "armador",
+      "match_stats": {
+        "steals": 3,
+        "rebounds": 13,
+        "blocks": 1,
+        "points": 31,
+        "assists": 9
+      }
+    },
+    "player_id": 6
+  },
+  {
+    "id": 23,
+    "game": {
+      "location": "Quadra Leste",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "VIKINGS", "total_score": 78 },
+        "team_2": { "name": "TEXANS", "total_score": 77 },
+        "end_date": "2025-07-10T19:10:00Z",
+        "team_1_id": 7,
+        "team_2_id": 8,
+        "result": "time1",
+        "start_date": "2025-07-10T18:30:00Z"
+      },
+      "match_id": 7,
+      "start_date": "2025-07-10T18:30:00Z",
+      "total_value": 180,
+      "end_date": "2025-07-10T20:00:00Z",
+      "player_limit": { "max": 12, "min": 8 }
+    },
+    "team": { "name": "TEXANS" },
+    "game_id": 4,
+    "team_id": 8,
+    "player": {
+      "name": "MATEUS FERREIRA",
+      "email": "mateus@email.com",
+      "phone": "99999-0006",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 22.5,
+        "payment_date": "2025-07-09T00:00:00Z"
+      },
+      "confirmation_date": "2025-07-03T00:00:00Z",
+      "favorite_position": "armador",
+      "match_stats": {
+        "steals": 3,
+        "rebounds": 8,
+        "blocks": 1,
+        "points": 38,
+        "assists": 9
+      }
+    },
+    "player_id": 6
+  },
+  {
+    "id": 24,
+    "game": {
+      "location": "Quadra Oeste",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "LIONS", "total_score": 30 },
+        "team_2": { "name": "EAGLES", "total_score": 25 },
+        "end_date": "2025-07-20T19:45:00Z",
+        "team_1_id": 9,
+        "team_2_id": 10,
+        "result": "time1",
+        "start_date": "2025-07-20T19:00:00Z"
+      },
+      "match_id": 9,
+      "start_date": "2025-07-20T19:00:00Z",
+      "total_value": 180,
+      "end_date": "2025-07-20T20:45:00Z",
+      "player_limit": { "max": 12, "min": 8 }
+    },
+    "team": { "name": "LIONS" },
+    "game_id": 5,
+    "team_id": 9,
+    "player": {
+      "name": "MATEUS FERREIRA",
+      "email": "mateus@email.com",
+      "phone": "99999-0006",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 22.5,
+        "payment_date": "2025-07-19T00:00:00Z"
+      },
+      "confirmation_date": "2025-07-15T00:00:00Z",
+      "favorite_position": "armador",
+      "match_stats": {
+        "steals": 1,
+        "rebounds": 11,
+        "blocks": 2,
+        "points": 13,
+        "assists": 9
+      }
+    },
+    "player_id": 6
+  },
+  {
+    "id": 25,
+    "game": {
+      "location": "Quadra Central",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "RAPTORS", "total_score": 80 },
+        "team_2": { "name": "WOLVES", "total_score": 75 },
+        "end_date": "2024-03-05T18:40:00Z",
+        "team_1_id": 1,
+        "team_2_id": 2,
+        "result": "time1",
+        "start_date": "2024-03-05T18:00:00Z"
+      },
+      "match_id": 1,
+      "start_date": "2024-03-05T18:00:00Z",
+      "total_value": 120,
+      "end_date": "2024-03-05T19:30:00Z",
+      "player_limit": { "max": 10, "min": 6 }
+    },
+    "team": { "name": "WOLVES" },
+    "game_id": 1,
+    "team_id": 2,
+    "player": {
+      "name": "TIAGO RIBEIRO",
+      "email": "tiago@email.com",
+      "phone": "99999-0007",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 15,
+        "payment_date": "2024-03-04T00:00:00Z"
+      },
+      "confirmation_date": "2024-03-02T00:00:00Z",
+      "favorite_position": "ala",
+      "match_stats": {
+        "steals": 4,
+        "rebounds": 8,
+        "blocks": 0,
+        "points": 42,
+        "assists": 4
+      }
+    },
+    "player_id": 7
+  },
+  {
+    "id": 26,
+    "game": {
+      "location": "Quadra Norte",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "HAWKS", "total_score": 85 },
+        "team_2": { "name": "TITANS", "total_score": 60 },
+        "end_date": "2024-05-20T17:40:00Z",
+        "team_1_id": 3,
+        "team_2_id": 4,
+        "result": "time1",
+        "start_date": "2024-05-20T17:00:00Z"
+      },
+      "match_id": 3,
+      "start_date": "2024-05-20T17:00:00Z",
+      "total_value": 120,
+      "end_date": "2024-05-20T18:30:00Z",
+      "player_limit": { "max": 10, "min": 6 }
+    },
+    "team": { "name": "HAWKS" },
+    "game_id": 2,
+    "team_id": 3,
+    "player": {
+      "name": "TIAGO RIBEIRO",
+      "email": "tiago@email.com",
+      "phone": "99999-0007",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 20,
+        "payment_date": "2024-05-19T00:00:00Z"
+      },
+      "confirmation_date": "2024-05-09T00:00:00Z",
+      "favorite_position": "ala",
+      "match_stats": {
+        "steals": 2,
+        "rebounds": 8,
+        "blocks": 2,
+        "points": 52,
+        "assists": 4
+      }
+    },
+    "player_id": 7
+  },
+  {
+    "id": 27,
+    "game": {
+      "location": "Quadra Sul",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "BEARS", "total_score": 66 },
+        "team_2": { "name": "GIANTS", "total_score": 61 },
+        "end_date": "2025-06-11T19:45:00Z",
+        "team_1_id": 5,
+        "team_2_id": 6,
+        "result": "time1",
+        "start_date": "2025-06-11T19:00:00Z"
+      },
+      "match_id": 5,
+      "start_date": "2025-06-11T19:00:00Z",
+      "total_value": 140,
+      "end_date": "2025-06-11T20:45:00Z",
+      "player_limit": { "max": 10, "min": 6 }
+    },
+    "team": { "name": "GIANTS" },
+    "game_id": 3,
+    "team_id": 6,
+    "player": {
+      "name": "TIAGO RIBEIRO",
+      "email": "tiago@email.com",
+      "phone": "99999-0007",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 17.5,
+        "payment_date": "2025-06-10T00:00:00Z"
+      },
+      "confirmation_date": "2025-06-05T00:00:00Z",
+      "favorite_position": "ala",
+      "match_stats": {
+        "steals": 2,
+        "rebounds": 12,
+        "blocks": 3,
+        "points": 32,
+        "assists": 5
+      }
+    },
+    "player_id": 7
+  },
+  {
+    "id": 28,
+    "game": {
+      "location": "Quadra Leste",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "VIKINGS", "total_score": 78 },
+        "team_2": { "name": "TEXANS", "total_score": 77 },
+        "end_date": "2025-07-10T19:10:00Z",
+        "team_1_id": 7,
+        "team_2_id": 8,
+        "result": "time1",
+        "start_date": "2025-07-10T18:30:00Z"
+      },
+      "match_id": 7,
+      "start_date": "2025-07-10T18:30:00Z",
+      "total_value": 180,
+      "end_date": "2025-07-10T20:00:00Z",
+      "player_limit": { "max": 12, "min": 8 }
+    },
+    "team": { "name": "TEXANS" },
+    "game_id": 4,
+    "team_id": 8,
+    "player": {
+      "name": "TIAGO RIBEIRO",
+      "email": "tiago@email.com",
+      "phone": "99999-0007",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 22.5,
+        "payment_date": "2025-07-09T00:00:00Z"
+      },
+      "confirmation_date": "2025-07-04T00:00:00Z",
+      "favorite_position": "ala",
+      "match_stats": {
+        "steals": 2,
+        "rebounds": 11,
+        "blocks": 2,
+        "points": 40,
+        "assists": 8
+      }
+    },
+    "player_id": 7
+  },
+  {
+    "id": 29,
+    "game": {
+      "location": "Quadra Oeste",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "LIONS", "total_score": 30 },
+        "team_2": { "name": "EAGLES", "total_score": 25 },
+        "end_date": "2025-07-20T19:45:00Z",
+        "team_1_id": 9,
+        "team_2_id": 10,
+        "result": "time1",
+        "start_date": "2025-07-20T19:00:00Z"
+      },
+      "match_id": 9,
+      "start_date": "2025-07-20T19:00:00Z",
+      "total_value": 180,
+      "end_date": "2025-07-20T20:45:00Z",
+      "player_limit": { "max": 12, "min": 8 }
+    },
+    "team": { "name": "LIONS" },
+    "game_id": 5,
+    "team_id": 9,
+    "player": {
+      "name": "TIAGO RIBEIRO",
+      "email": "tiago@email.com",
+      "phone": "99999-0007",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 22.5,
+        "payment_date": "2025-07-19T00:00:00Z"
+      },
+      "confirmation_date": "2025-07-16T00:00:00Z",
+      "favorite_position": "ala",
+      "match_stats": {
+        "steals": 1,
+        "rebounds": 13,
+        "blocks": 1,
+        "points": 14,
+        "assists": 10
+      }
+    },
+    "player_id": 7
+  },
+  {
+    "id": 30,
+    "game": {
+      "location": "Quadra Central",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "RAPTORS", "total_score": 80 },
+        "team_2": { "name": "WOLVES", "total_score": 75 },
+        "end_date": "2024-03-05T18:40:00Z",
+        "team_1_id": 1,
+        "team_2_id": 2,
+        "result": "time1",
+        "start_date": "2024-03-05T18:00:00Z"
+      },
+      "match_id": 1,
+      "start_date": "2024-03-05T18:00:00Z",
+      "total_value": 120,
+      "end_date": "2024-03-05T19:30:00Z",
+      "player_limit": { "max": 10, "min": 6 }
+    },
+    "team": { "name": "WOLVES" },
+    "game_id": 1,
+    "team_id": 2,
+    "player": {
+      "name": "CAIO MENDES",
+      "email": "caio@email.com",
+      "phone": "99999-0008",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 15,
+        "payment_date": "2024-03-04T00:00:00Z"
+      },
+      "confirmation_date": "2024-03-03T00:00:00Z",
+      "favorite_position": "pivo",
+      "match_stats": {
+        "steals": 4,
+        "rebounds": 8,
+        "blocks": 2,
+        "points": 30,
+        "assists": 4
+      }
+    },
+    "player_id": 8
+  },
+  {
+    "id": 31,
+    "game": {
+      "location": "Quadra Sul",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "BEARS", "total_score": 66 },
+        "team_2": { "name": "GIANTS", "total_score": 61 },
+        "end_date": "2025-06-11T19:45:00Z",
+        "team_1_id": 5,
+        "team_2_id": 6,
+        "result": "time1",
+        "start_date": "2025-06-11T19:00:00Z"
+      },
+      "match_id": 5,
+      "start_date": "2025-06-11T19:00:00Z",
+      "total_value": 140,
+      "end_date": "2025-06-11T20:45:00Z",
+      "player_limit": { "max": 10, "min": 6 }
+    },
+    "team": { "name": "GIANTS" },
+    "game_id": 3,
+    "team_id": 6,
+    "player": {
+      "name": "CAIO MENDES",
+      "email": "caio@email.com",
+      "phone": "99999-0008",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 17.5,
+        "payment_date": "2025-06-10T00:00:00Z"
+      },
+      "confirmation_date": "2025-06-06T00:00:00Z",
+      "favorite_position": "pivo",
+      "match_stats": {
+        "steals": 3,
+        "rebounds": 15,
+        "blocks": 2,
+        "points": 34,
+        "assists": 8
+      }
+    },
+    "player_id": 8
+  },
+  {
+    "id": 32,
+    "game": {
+      "location": "Quadra Leste",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "VIKINGS", "total_score": 78 },
+        "team_2": { "name": "TEXANS", "total_score": 77 },
+        "end_date": "2025-07-10T19:10:00Z",
+        "team_1_id": 7,
+        "team_2_id": 8,
+        "result": "time1",
+        "start_date": "2025-07-10T18:30:00Z"
+      },
+      "match_id": 7,
+      "start_date": "2025-07-10T18:30:00Z",
+      "total_value": 180,
+      "end_date": "2025-07-10T20:00:00Z",
+      "player_limit": { "max": 12, "min": 8 }
+    },
+    "team": { "name": "VIKINGS" },
+    "game_id": 4,
+    "team_id": 7,
+    "player": {
+      "name": "CAIO MENDES",
+      "email": "caio@email.com",
+      "phone": "99999-0008",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 22.5,
+        "payment_date": "2025-07-09T00:00:00Z"
+      },
+      "confirmation_date": "2025-07-06T00:00:00Z",
+      "favorite_position": "pivo",
+      "match_stats": {
+        "steals": 1,
+        "rebounds": 7,
+        "blocks": 1,
+        "points": 32,
+        "assists": 7
+      }
+    },
+    "player_id": 8
+  },
+  {
+    "id": 33,
+    "game": {
+      "location": "Quadra Oeste",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "LIONS", "total_score": 30 },
+        "team_2": { "name": "EAGLES", "total_score": 25 },
+        "end_date": "2025-07-20T19:45:00Z",
+        "team_1_id": 9,
+        "team_2_id": 10,
+        "result": "time1",
+        "start_date": "2025-07-20T19:00:00Z"
+      },
+      "match_id": 9,
+      "start_date": "2025-07-20T19:00:00Z",
+      "total_value": 180,
+      "end_date": "2025-07-20T20:45:00Z",
+      "player_limit": { "max": 12, "min": 8 }
+    },
+    "team": { "name": "EAGLES" },
+    "game_id": 5,
+    "team_id": 10,
+    "player": {
+      "name": "CAIO MENDES",
+      "email": "caio@email.com",
+      "phone": "99999-0008",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 22.5,
+        "payment_date": "2025-07-19T00:00:00Z"
+      },
+      "confirmation_date": "2025-07-16T00:00:00Z",
+      "favorite_position": "pivo",
+      "match_stats": {
+        "steals": 11,
+        "rebounds": 10,
+        "blocks": 1,
+        "points": 7,
+        "assists": 7
+      }
+    },
+    "player_id": 8
+  },
+  {
+    "id": 34,
+    "game": {
+      "location": "Quadra Sul",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "BEARS", "total_score": 66 },
+        "team_2": { "name": "GIANTS", "total_score": 61 },
+        "end_date": "2025-06-11T19:45:00Z",
+        "team_1_id": 5,
+        "team_2_id": 6,
+        "result": "time1",
+        "start_date": "2025-06-11T19:00:00Z"
+      },
+      "match_id": 5,
+      "start_date": "2025-06-11T19:00:00Z",
+      "total_value": 140,
+      "end_date": "2025-06-11T20:45:00Z",
+      "player_limit": { "max": 10, "min": 6 }
+    },
+    "team": { "name": "GIANTS" },
+    "game_id": 3,
+    "team_id": 6,
+    "player": {
+      "name": "FELIPE BARROS",
+      "email": "felipe@email.com",
+      "phone": "99999-0009",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 17.5,
+        "payment_date": "2025-06-10T00:00:00Z"
+      },
+      "confirmation_date": "2025-06-07T00:00:00Z",
+      "favorite_position": "armador",
+      "match_stats": {
+        "steals": 3,
+        "rebounds": 13,
+        "blocks": 1,
+        "points": 25,
+        "assists": 9
+      }
+    },
+    "player_id": 9
+  },
+  {
+    "id": 35,
+    "game": {
+      "location": "Quadra Leste",
+      "status": "encerrado",
+      "matches": {
+        "team_1": { "name": "VIKINGS", "total_score": 78 },
+        "team_2": { "name": "TEXANS", "total_score": 77 },
+        "end_date": "2025-07-10T19:10:00Z",
+        "team_1_id": 7,
+        "team_2_id": 8,
+        "result": "time1",
+        "start_date": "2025-07-10T18:30:00Z"
+      },
+      "match_id": 7,
+      "start_date": "2025-07-10T18:30:00Z",
+      "total_value": 180,
+      "end_date": "2025-07-10T20:00:00Z",
+      "player_limit": { "max": 12, "min": 8 }
+    },
+    "team": { "name": "TEXANS" },
+    "game_id": 4,
+    "team_id": 8,
+    "player": {
+      "name": "FELIPE BARROS",
+      "email": "felipe@email.com",
+      "phone": "99999-0009",
+      "payment": {
+        "completed": 1,
+        "amount_paid": 22.5,
+        "payment_date": "2025-07-09T00:00:00Z"
+      },
+      "confirmation_date": "2025-07-08T00:00:00Z",
+      "favorite_position": "armador",
+      "match_stats": {
+        "steals": 3,
+        "rebounds": 8,
+        "blocks": 1,
+        "points": 37,
+        "assists": 9
+      }
+    },
+    "player_id": 9
+  }
+]
