@@ -19,13 +19,21 @@ async function getTeamById(id) {
 
 async function createTeam(team) {
   const teams = await getTeams();
-  teams.push(team);
+  const teamsLength = teams.length;
+  const newTeamId = teamsLength + 1;
+  teams.push({
+    id: newTeamId,
+    ...team,
+  });
   await fs.promises.writeFile(teamsFilePath, JSON.stringify(teams));
 }
 
 async function updateTeam(team, id) {
   let teams = await getTeams();
   const index = teams.findIndex((team) => team.id == id);
+  if (index === -1) {
+    throw { status: 404, message: "Time não encontrado" };
+  }
   teams[index] = team;
   await fs.promises.writeFile(teamsFilePath, JSON.stringify(teams));
 }
@@ -33,6 +41,9 @@ async function updateTeam(team, id) {
 async function deleteTeam(id) {
   let teams = await getTeams();
   const teamsFiltered = teams.filter((team) => team.id != id);
+  if (teams.length === teamsFiltered.length) {
+    throw { status: 404, message: "Time não encontrado" };
+  }
   await fs.promises.writeFile(teamsFilePath, JSON.stringify(teamsFiltered));
 }
 

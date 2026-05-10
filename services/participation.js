@@ -19,7 +19,12 @@ async function getParticipationById(id) {
 
 async function createParticipation(participation) {
   const participations = await getParticipations();
-  participations.push(participation);
+  const participationsLength = participations.length;
+  const newParticipationId = participationsLength + 1;
+  participations.push({
+    id: newParticipationId,
+    ...participation,
+  });
   await fs.promises.writeFile(
     participationsFilePath,
     JSON.stringify(participations),
@@ -31,6 +36,9 @@ async function updateParticipation(participation, id) {
   const index = participations.findIndex(
     (participation) => participation.id == id,
   );
+  if (index === -1) {
+    throw { status: 404, message: "Participação não encontrada" };
+  }
   participations[index] = participation;
   await fs.promises.writeFile(
     participationsFilePath,
@@ -43,6 +51,9 @@ async function deleteParticipation(id) {
   const participationsFiltered = participations.filter(
     (participation) => participation.id != id,
   );
+  if (participations.length === participationsFiltered.length) {
+    throw { status: 404, message: "Participação não encontrada" };
+  }
   await fs.promises.writeFile(
     participationsFilePath,
     JSON.stringify(participationsFiltered),
