@@ -34,7 +34,11 @@ async function updateGame(game, id) {
   if (index === -1) {
     throw { status: 404, message: "Jogo não encontrado" };
   }
-  games[index] = game;
+  const updatedGame = {
+    ...games[index],
+    ...game,
+  };
+  games[index] = updatedGame;
   await fs.promises.writeFile(gamesFilePath, JSON.stringify(games));
 }
 

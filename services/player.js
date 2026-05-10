@@ -34,7 +34,11 @@ async function updatePlayer(player, id) {
   if (index === -1) {
     throw { status: 404, message: "Jogador não encontrado" };
   }
-  players[index] = player;
+  const updatedPlayer = {
+    ...players[index],
+    ...player,
+  };
+  players[index] = updatedPlayer;
   await fs.promises.writeFile(playersFilePath, JSON.stringify(players));
 }
 

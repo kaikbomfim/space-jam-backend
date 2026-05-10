@@ -41,7 +41,11 @@ async function updateParticipation(participation, id) {
   if (index === -1) {
     throw { status: 404, message: "Participação não encontrada" };
   }
-  participations[index] = participation;
+  const updatedParticipation = {
+    ...participations[index],
+    ...participation,
+  };
+  participations[index] = updatedParticipation;
   await fs.promises.writeFile(
     participationsFilePath,
     JSON.stringify(participations),

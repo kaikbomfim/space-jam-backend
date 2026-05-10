@@ -34,7 +34,11 @@ async function updateTeam(team, id) {
   if (index === -1) {
     throw { status: 404, message: "Time não encontrado" };
   }
-  teams[index] = team;
+  const updatedTeam = {
+    ...teams[index],
+    ...team,
+  };
+  teams[index] = updatedTeam;
   await fs.promises.writeFile(teamsFilePath, JSON.stringify(teams));
 }
 
