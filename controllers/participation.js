@@ -61,22 +61,10 @@ async function patchParticipation(req, res) {
       if (!participation) {
         throw { status: 400, message: "Participação é obrigatória" };
       }
-      if (
-        participation.game_id &&
-        Number(participation.game_id) &&
-        participation.team_id &&
-        Number(participation.team_id) &&
-        participation.player_id &&
-        Number(participation.player_id)
-      ) {
-        await participationService.updateParticipation(participation, id);
-        res.send("Participação atualizada com sucesso");
-      } else {
-        res.status(422).json({
-          message:
-            "Os campos game_id, team_id e player_id são obrigatórios e devem ser numéricos",
-        });
-      }
+      await participationService.updateParticipation(participation, id);
+      res.send("Participação atualizada com sucesso");
+    } else {
+      res.status(422).json({ message: "ID inválido" });
     }
   } catch (error) {
     res.status(500).json({ message: error.message });
