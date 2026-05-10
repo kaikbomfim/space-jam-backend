@@ -44,5 +44,254 @@
       "max": 10,
       "min": 6
     }
+  },
+  {
+    "id": 2,
+    "location": "Quadra Norte",
+    "status": "encerrado",
+    "matches": [
+      {
+        "id": 3,
+        "team_1": {
+          "name": "HAWKS",
+          "total_score": 85
+        },
+        "team_2": {
+          "name": "TITANS",
+          "total_score": 60
+        },
+        "end_date": "2024-05-20T17:40:00Z",
+        "team_1_id": 3,
+        "team_2_id": 4,
+        "result": "time1",
+        "start_date": "2024-05-20T17:00:00Z"
+      },
+      {
+        "id": 4,
+        "team_1": {
+          "name": "HAWKS",
+          "total_score": 70
+        },
+        "team_2": {
+          "name": "TITANS",
+          "total_score": 77
+        },
+        "end_date": "2024-05-20T18:25:00Z",
+        "team_1_id": 3,
+        "team_2_id": 4,
+        "result": "time2",
+        "start_date": "2024-05-20T17:45:00Z"
+      }
+    ],
+    "start_date": "2024-05-20T17:00:00Z",
+    "total_value": 120,
+    "end_date": "2024-05-20T18:30:00Z",
+    "player_limit": {
+      "max": 10,
+      "min": 6
+    }
+  },
+  {
+    "id": 3,
+    "location": "Quadra Sul",
+    "status": "encerrado",
+    "matches": [
+      {
+        "id": 5,
+        "team_1": {
+          "name": "BEARS",
+          "total_score": 66
+        },
+        "team_2": {
+          "name": "GIANTS",
+          "total_score": 61
+        },
+        "end_date": "2025-06-11T19:45:00Z",
+        "team_1_id": 5,
+        "team_2_id": 6,
+        "result": "time1",
+        "start_date": "2025-06-11T19:00:00Z"
+      },
+      {
+        "id": 6,
+        "team_1": {
+          "name": "BEARS",
+          "total_score": 59
+        },
+        "team_2": {
+          "name": "GIANTS",
+          "total_score": 63
+        },
+        "end_date": "2025-06-11T20:35:00Z",
+        "team_1_id": 5,
+        "team_2_id": 6,
+        "result": "time2",
+        "start_date": "2025-06-11T19:50:00Z"
+      }
+    ],
+    "start_date": "2025-06-11T19:00:00Z",
+    "total_value": 140,
+    "end_date": "2025-06-11T20:45:00Z",
+    "player_limit": {
+      "max": 10,
+      "min": 6
+    }
+  },
+  {
+    "id": 4,
+    "location": "Quadra Leste",
+    "status": "encerrado",
+    "matches": [
+      {
+        "id": 7,
+        "team_1": {
+          "name": "VIKINGS",
+          "total_score": 78
+        },
+        "team_2": {
+          "name": "TEXANS",
+          "total_score": 77
+        },
+        "end_date": "2025-07-10T19:10:00Z",
+        "team_1_id": 7,
+        "team_2_id": 8,
+        "result": "time2",
+        "start_date": "2025-07-10T18:30:00Z"
+      },
+      {
+        "id": 8,
+        "team_1": {
+          "name": "VIKINGS",
+          "total_score": 88
+        },
+        "team_2": {
+          "name": "TEXANS",
+          "total_score": 80
+        },
+        "end_date": "2025-07-10T19:55:00Z",
+        "team_1_id": 7,
+        "team_2_id": 8,
+        "result": "time1",
+        "start_date": "2025-07-10T19:15:00Z"
+      }
+    ],
+    "start_date": "2025-07-10T18:30:00Z",
+    "total_value": 180,
+    "end_date": "2025-07-10T20:00:00Z",
+    "player_limit": {
+      "max": 12,
+      "min": 8
+    }
+  },
+  {
+    "id": 5,
+    "location": "Quadra Oeste",
+    "status": "encerrado",
+    "matches": [
+      {
+        "id": 9,
+        "team_1": {
+          "name": "LIONS",
+          "total_score": 30
+        },
+        "team_2": {
+          "name": "EAGLES",
+          "total_score": 25
+        },
+        "end_date": "2025-07-20T19:45:00Z",
+        "team_1_id": 9,
+        "team_2_id": 10,
+        "result": "time2",
+        "start_date": "2025-07-20T19:00:00Z"
+      },
+      {
+        "id": 10,
+        "team_1": {
+          "name": "LIONS",
+          "total_score": 42
+        },
+        "team_2": {
+          "name": "EAGLES",
+          "total_score": 50
+        },
+        "end_date": "2025-07-20T20:35:00Z",
+        "team_1_id": 9,
+        "team_2_id": 10,
+        "result": "time2",
+        "start_date": "2025-07-20T19:50:00Z"
+      }
+    ],
+    "start_date": "2025-07-20T19:00:00Z",
+    "total_value": 180,
+    "end_date": "2025-07-20T20:45:00Z",
+    "player_limit": {
+      "max": 12,
+      "min": 8
+    }
+  },
+  {
+    "id": 6,
+    "location": "Quadra Central",
+    "status": "aberto",
+    "matches": [],
+    "start_date": "2025-11-14T17:30:00Z",
+    "total_value": 150,
+    "end_date": "2025-11-14T19:00:00Z",
+    "player_limit": {
+      "max": 10,
+      "min": 6
+    }
+  },
+  {
+    "id": 7,
+    "location": "Quadra Norte",
+    "status": "aberto",
+    "matches": [],
+    "start_date": "2025-11-19T18:00:00Z",
+    "total_value": 150,
+    "end_date": "2025-11-19T19:30:00Z",
+    "player_limit": {
+      "max": 10,
+      "min": 6
+    }
+  },
+  {
+    "id": 8,
+    "location": "Quadra Oeste",
+    "status": "aberto",
+    "matches": [],
+    "start_date": "2025-11-20T17:30:00Z",
+    "total_value": 120,
+    "end_date": "2025-11-20T19:00:00Z",
+    "player_limit": {
+      "max": 12,
+      "min": 8
+    }
+  },
+  {
+    "id": 9,
+    "location": "Quadra Sul",
+    "status": "aberto",
+    "matches": [],
+    "start_date": "2025-11-22T18:00:00Z",
+    "total_value": 150,
+    "end_date": "2025-11-22T19:30:00Z",
+    "player_limit": {
+      "max": 10,
+      "min": 6
+    }
+  },
+  {
+    "id": 10,
+    "location": "Quadra Norte",
+    "status": "aberto",
+    "matches": [],
+    "start_date": "2025-11-30T18:00:00Z",
+    "total_value": 180,
+    "end_date": "2025-11-30T20:00:00Z",
+    "player_limit": {
+      "max": 10,
+      "min": 6
+    }
   }
 ]
