@@ -13,7 +13,9 @@ async function getParticipations() {
 
 async function getParticipationById(id) {
   const participations = await getParticipations();
-  const participationFiltered = participations.filter((p) => p.id == id)[0];
+  const participationFiltered = participations.filter(
+    (participation) => participation.id == id,
+  )[0];
   return participationFiltered;
 }
 
