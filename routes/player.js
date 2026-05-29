@@ -1,5 +1,5 @@
-const { Router } = require("express");
-const playerController = require("../controllers/player");
+import { Router } from "express";
+import playerController from "../controllers/player.js";
 const router = Router();
 
 router.get("/", playerController.getPlayers);
@@ -11,4 +11,4 @@ router.patch("/:id", playerController.patchPlayer);
 
 router.delete("/:id", playerController.deletePlayer);
 
-module.exports = router;
+export default router;
