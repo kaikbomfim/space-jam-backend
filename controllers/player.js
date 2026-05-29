@@ -1,4 +1,5 @@
-const playerService = require("../services/player");
+import playerService from "../services/player.js";
+import mongoose from "mongoose";
 
 async function getPlayers(req, res) {
   try {
@@ -12,7 +13,7 @@ async function getPlayers(req, res) {
 async function getPlayer(req, res) {
   try {
     const id = req.params.id;
-    if (id && Number(id)) {
+    if (id && mongoose.Types.ObjectId.isValid(id)) {
       const player = await playerService.getPlayerById(id);
       if (!player) {
         throw { status: 404, message: "Jogador não encontrado" };
@@ -48,7 +49,7 @@ async function postPlayer(req, res) {
 async function patchPlayer(req, res) {
   try {
     const id = req.params.id;
-    if (id && Number(id)) {
+    if (id && mongoose.Types.ObjectId.isValid(id)) {
       const player = req.body;
       if (!player) {
         throw { status: 400, message: "Jogador é obrigatório" };
@@ -66,7 +67,7 @@ async function patchPlayer(req, res) {
 async function deletePlayer(req, res) {
   try {
     const id = req.params.id;
-    if (id && Number(id)) {
+    if (id && mongoose.Types.ObjectId.isValid(id)) {
       await playerService.deletePlayer(id);
       res.send("Jogador deletado com sucesso");
     } else {
@@ -77,10 +78,4 @@ async function deletePlayer(req, res) {
   }
 }
 
-module.exports = {
-  getPlayers,
-  getPlayer,
-  postPlayer,
-  patchPlayer,
-  deletePlayer,
-};
+export { getPlayers, getPlayer, postPlayer, patchPlayer, deletePlayer };

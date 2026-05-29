@@ -1,4 +1,5 @@
-const teamService = require("../services/team");
+import teamService from "../services/team.js";
+import mongoose from "mongoose";
 
 async function getTeams(req, res) {
   try {
@@ -12,7 +13,7 @@ async function getTeams(req, res) {
 async function getTeam(req, res) {
   try {
     const id = req.params.id;
-    if (id && Number(id)) {
+    if (id && mongoose.Types.ObjectId.isValid(id)) {
       const team = await teamService.getTeamById(id);
       if (!team) {
         throw { status: 404, message: "Time não encontrado" };
@@ -46,7 +47,7 @@ async function postTeam(req, res) {
 async function patchTeam(req, res) {
   try {
     const id = req.params.id;
-    if (id && Number(id)) {
+    if (id && mongoose.Types.ObjectId.isValid(id)) {
       const team = req.body;
       if (!team) {
         throw { status: 400, message: "Time é obrigatório" };
@@ -66,7 +67,7 @@ async function patchTeam(req, res) {
 async function deleteTeam(req, res) {
   try {
     const id = req.params.id;
-    if (id && Number(id)) {
+    if (id && mongoose.Types.ObjectId.isValid(id)) {
       await teamService.deleteTeam(id);
       res.send("Time deletado com sucesso");
     } else {
@@ -77,4 +78,4 @@ async function deleteTeam(req, res) {
   }
 }
 
-module.exports = { getTeams, getTeam, postTeam, patchTeam, deleteTeam };
+export { getTeams, getTeam, postTeam, patchTeam, deleteTeam };
