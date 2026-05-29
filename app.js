@@ -1,17 +1,32 @@
-const express = require("express");
+import express from "express";
+import teamRoutes from "./routes/team.js";
+import playerRoutes from "./routes/player.js";
+import gameRoutes from "./routes/game.js";
+import participationRoutes from "./routes/participation.js";
+import mongoose from "mongoose";
+import cors from "cors";
+import "dotenv/config";
+
 const app = express();
 const port = 8000;
-const teamRoutes = require("./routes/team");
-const playerRoutes = require("./routes/player");
-const gameRoutes = require("./routes/game");
-const participationRoutes = require("./routes/participation");
 
-app.use(express.json());
-app.use("/teams", teamRoutes);
-app.use("/players", playerRoutes);
-app.use("/games", gameRoutes);
-app.use("/participations", participationRoutes);
+try {
+  app.use(express.json());
+  app.use(cors({ origin: "*" }));
+  app.use("/teams", teamRoutes);
+  app.use("/players", playerRoutes);
+  app.use("/games", gameRoutes);
+  app.use("/participations", participationRoutes);
+  await pool();
+  console.log("Connected to MongoDB");
 
-app.listen(port, () => {
-  console.log(`Listening on port ${port}`);
-});
+  mongoose.connection.on("error", (error) => {
+    console.error("MongoDB connection error:", error);
+  });
+
+  app.listen(port, () => {
+    console.log(`Listening on port ${port}`);
+  });
+} catch (error) {
+  console.error("Error connecting to MongoDB:", error);
+}
