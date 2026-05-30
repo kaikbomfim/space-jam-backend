@@ -19,19 +19,11 @@ async function createPlayer(newPlayer) {
 }
 
 async function updatePlayer(updatedPlayer, id) {
-  try {
-    await player.findByIdAndUpdate(id, updatedPlayer);
-  } catch (error) {
-    throw { status: 500, message: "Erro ao atualizar jogador" };
-  }
+  await player.findByIdAndUpdate(id, updatedPlayer);
 }
 
 async function deletePlayer(id) {
-  try {
-    await player.findByIdAndDelete(id);
-  } catch (error) {
-    throw { status: 500, message: "Erro ao deletar jogador" };
-  }
+  await player.findByIdAndDelete(id);
 }
 
 export {

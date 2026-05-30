@@ -19,8 +19,8 @@ async function createGame(newGame) {
   await game.create(newGame);
 }
 
-async function updateGame(gameUpdate, id) {
-  await game.findByIdAndUpdate(id, gameUpdate);
+async function updateGame(updatedGame, id) {
+  await game.findByIdAndUpdate(id, updatedGame);
 }
 
 async function deleteGame(id) {
