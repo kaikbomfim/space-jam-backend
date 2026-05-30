@@ -1,4 +1,4 @@
-import teamService from "../services/team.js";
+import * as teamService from "../services/team.js";
 import mongoose from "mongoose";
 
 async function getTeams(req, res) {
@@ -27,7 +27,22 @@ async function getTeam(req, res) {
   }
 }
 
-// ADICIONAR FUNÇÃO PARA BUSCA VIA OUTRO PARÂMETRO
+async function getTeamByName(req, res) {
+  try {
+    const name = req.query.name;
+    if (name) {
+      const team = await teamService.getTeamByName(name);
+      if (!team) {
+        throw { status: 404, message: "Time não encontrado" };
+      }
+      res.json(team);
+    } else {
+      res.status(422).json({ message: "Nome do time é obrigatório" });
+    }
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+}
 
 async function postTeam(req, res) {
   try {
@@ -80,4 +95,4 @@ async function deleteTeam(req, res) {
   }
 }
 
-export { getTeams, getTeam, postTeam, patchTeam, deleteTeam };
+export { getTeams, getTeam, getTeamByName, postTeam, patchTeam, deleteTeam };
