@@ -10,18 +10,22 @@ async function getParticipationById(id) {
   return participationFound;
 }
 
-async function getParticipationsByFilter(filter) {
+async function getParticipationsByIds(ids) {
+  const filter = {};
+  if (ids.game_id) filter.game_id = ids.game_id;
+  if (ids.team_id) filter.team_id = ids.team_id;
+  if (ids.player_id) filter.player_id = ids.player_id;
   const participations = await participation.find(filter);
   return participations;
 }
 
-async function createParticipation(data) {
-  await participation.create(data);
+async function createParticipation(newParticipation) {
+  await participation.create(newParticipation);
 }
 
-async function updateParticipation(data, id) {
+async function updateParticipation(updatedParticipation, id) {
   try {
-    await participation.findByIdAndUpdate(id, data);
+    await participation.findByIdAndUpdate(id, updatedParticipation);
   } catch (error) {
     throw { status: 500, message: "Erro ao atualizar participação" };
   }
@@ -35,10 +39,10 @@ async function deleteParticipation(id) {
   }
 }
 
-export default {
+export {
   getParticipations,
   getParticipationById,
-  getParticipationsByFilter,
+  getParticipationsByIds,
   createParticipation,
   updateParticipation,
   deleteParticipation,

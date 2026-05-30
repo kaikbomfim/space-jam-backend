@@ -1,4 +1,4 @@
-import participationService from "../services/participation.js";
+import * as participationService from "../services/participation.js";
 import mongoose from "mongoose";
 
 async function getParticipations(req, res) {
@@ -27,27 +27,28 @@ async function getParticipation(req, res) {
   }
 }
 
-async function searchParticipations(req, res) {
+async function getParticipationsByIds(req, res) {
   try {
-    const allowed = ["game_id", "team_id", "player_id"];
-    const filter = {};
-    for (const field of allowed) {
-      const value = req.query[field];
-      if (value !== undefined) {
-        if (!mongoose.Types.ObjectId.isValid(value)) {
-          return res.status(422).json({ message: `${field} inválido` });
-        }
-        filter[field] = value;
-      }
-    }
-    if (Object.keys(filter).length === 0) {
+    const ids = {
+      game_id: req.query.game_id,
+      team_id: req.query.team_id,
+      player_id: req.query.player_id,
+    };
+    const providedIds = Object.entries(ids).filter(
+      ([, value]) => value !== undefined,
+    );
+    if (providedIds.length === 0) {
       return res.status(422).json({
-        message:
-          "Informe ao menos um filtro: game_id, team_id ou player_id",
+        message: "Informe ao menos um filtro: game_id, team_id ou player_id",
       });
     }
+    for (const [field, value] of providedIds) {
+      if (!mongoose.Types.ObjectId.isValid(value)) {
+        return res.status(422).json({ message: `${field} inválido` });
+      }
+    }
     const participations =
-      await participationService.getParticipationsByFilter(filter);
+      await participationService.getParticipationsByIds(ids);
     res.json(participations);
   } catch (error) {
     res.status(error.status || 500).json({ message: error.message });
@@ -110,10 +111,10 @@ async function deleteParticipation(req, res) {
   }
 }
 
-export default {
+export {
   getParticipations,
   getParticipation,
-  searchParticipations,
+  getParticipationsByIds,
   postParticipation,
   patchParticipation,
   deleteParticipation,
