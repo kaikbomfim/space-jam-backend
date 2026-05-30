@@ -5,6 +5,8 @@ const router = Router();
 router.get("/", teamController.getTeams);
 router.get("/:id", teamController.getTeam);
 
+// ADICIONAR ROTA PARA BUSCA VIA OUTRO PARÂMETRO
+
 router.post("/", teamController.postTeam);
 
 router.patch("/:id", teamController.patchTeam);

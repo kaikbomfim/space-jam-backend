@@ -27,6 +27,8 @@ async function getPlayer(req, res) {
   }
 }
 
+// ADICIONAR FUNÇÃO PARA BUSCA VIA OUTRO PARÂMETRO
+
 async function postPlayer(req, res) {
   try {
     const player = req.body;

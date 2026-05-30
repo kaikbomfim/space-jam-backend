@@ -27,6 +27,8 @@ async function getTeam(req, res) {
   }
 }
 
+// ADICIONAR FUNÇÃO PARA BUSCA VIA OUTRO PARÂMETRO
+
 async function postTeam(req, res) {
   try {
     const team = req.body;

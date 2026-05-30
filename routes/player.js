@@ -5,6 +5,8 @@ const router = Router();
 router.get("/", playerController.getPlayers);
 router.get("/:id", playerController.getPlayer);
 
+// ADICIONAR ROTA PARA BUSCA VIA OUTRO PARÂMETRO
+
 router.post("/", playerController.postPlayer);
 
 router.patch("/:id", playerController.patchPlayer);

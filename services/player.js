@@ -1,61 +1,34 @@
-const fs = require("fs");
-const playersFilePath = "players.json";
-
-async function readPlayers() {
-  const players = await fs.promises.readFile(playersFilePath);
-  return JSON.parse(players);
-}
+import player from "../models/player.js";
 
 async function getPlayers() {
-  const players = await readPlayers();
+  const players = await player.find({});
   return players;
 }
-
 async function getPlayerById(id) {
-  const players = await getPlayers();
-  const playerFiltered = players.filter((player) => player.id == id)[0];
-  return playerFiltered;
+  const player = await player.findById(id);
+  return player;
 }
 
+// ADICIONAR FUNÇÃO PARA BUSCA VIA OUTRO PARÂMETRO
+
 async function createPlayer(player) {
-  const players = await getPlayers();
-  const playersLength = players.length;
-  const newPlayerId = playersLength + 1;
-  players.push({
-    id: newPlayerId,
-    ...player,
-  });
-  await fs.promises.writeFile(playersFilePath, JSON.stringify(players));
+  await player.create(player);
 }
 
 async function updatePlayer(player, id) {
-  let players = await getPlayers();
-  const index = players.findIndex((player) => player.id == id);
-  if (index === -1) {
-    throw { status: 404, message: "Jogador não encontrado" };
+  try {
+    await player.findByIdAndUpdate(id, player);
+  } catch (error) {
+    throw { status: 500, message: "Erro ao atualizar jogador" };
   }
-  const updatedPlayer = {
-    ...players[index],
-    ...player,
-  };
-  players[index] = updatedPlayer;
-  await fs.promises.writeFile(playersFilePath, JSON.stringify(players));
 }
 
 async function deletePlayer(id) {
-  let players = await getPlayers();
-  const playersFiltered = players.filter((player) => player.id != id);
-  if (players.length === playersFiltered.length) {
-    throw { status: 404, message: "Jogador não encontrado" };
+  try {
+    await player.findByIdAndDelete(id);
+  } catch (error) {
+    throw { status: 500, message: "Erro ao deletar jogador" };
   }
-  await fs.promises.writeFile(playersFilePath, JSON.stringify(playersFiltered));
 }
 
-module.exports = {
-  readPlayers,
-  getPlayers,
-  getPlayerById,
-  createPlayer,
-  updatePlayer,
-  deletePlayer,
-};
+export { getPlayers, getPlayerById, createPlayer, updatePlayer, deletePlayer };

@@ -1,61 +1,35 @@
-const fs = require("fs");
-const teamsFilePath = "teams.json";
-
-async function readTeams() {
-  const teams = await fs.promises.readFile(teamsFilePath);
-  return JSON.parse(teams);
-}
+import team from "../models/team.js";
 
 async function getTeams() {
-  const teams = await readTeams();
+  const teams = await team.find({});
   return teams;
 }
 
 async function getTeamById(id) {
-  const teams = await getTeams();
-  const teamFiltered = teams.filter((team) => team.id == id)[0];
-  return teamFiltered;
+  const team = await team.findById(id);
+  return team;
 }
 
+// ADICIONAR FUNÇÃO PARA BUSCA VIA OUTRO PARÂMETRO
+
 async function createTeam(team) {
-  const teams = await getTeams();
-  const teamsLength = teams.length;
-  const newTeamId = teamsLength + 1;
-  teams.push({
-    id: newTeamId,
-    ...team,
-  });
-  await fs.promises.writeFile(teamsFilePath, JSON.stringify(teams));
+  await team.create(team);
 }
 
 async function updateTeam(team, id) {
-  let teams = await getTeams();
-  const index = teams.findIndex((team) => team.id == id);
-  if (index === -1) {
-    throw { status: 404, message: "Time não encontrado" };
+  try {
+    await team.findByIdAndUpdate(id, team);
+  } catch (error) {
+    throw { status: 500, message: "Erro ao atualizar time" };
   }
-  const updatedTeam = {
-    ...teams[index],
-    ...team,
-  };
-  teams[index] = updatedTeam;
-  await fs.promises.writeFile(teamsFilePath, JSON.stringify(teams));
 }
 
 async function deleteTeam(id) {
-  let teams = await getTeams();
-  const teamsFiltered = teams.filter((team) => team.id != id);
-  if (teams.length === teamsFiltered.length) {
-    throw { status: 404, message: "Time não encontrado" };
+  try {
+    await team.findByIdAndDelete(id);
+  } catch (error) {
+    throw { status: 500, message: "Erro ao deletar time" };
   }
-  await fs.promises.writeFile(teamsFilePath, JSON.stringify(teamsFiltered));
 }
 
-module.exports = {
-  readTeams,
-  getTeams,
-  getTeamById,
-  createTeam,
-  updateTeam,
-  deleteTeam,
-};
+export { getTeams, getTeamById, createTeam, updateTeam, deleteTeam };
