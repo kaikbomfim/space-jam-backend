@@ -1,26 +1,5 @@
 import * as gameService from "../services/game.js";
-
-const gameFields = [
-  "location",
-  "status",
-  "matches",
-  "start_date",
-  "total_value",
-  "end_date",
-  "player_limit",
-];
-const playerLimitFields = ["max", "min"];
-const matchesFields = [
-  "id",
-  "team_1",
-  "team_2",
-  "end_date",
-  "team_1_id",
-  "team_2_id",
-  "result",
-  "start_date",
-];
-const teamFields = ["name", "total_score"];
+import mongoose from 'mongoose';
 
 async function getGames(req, res) {
   try {
@@ -34,12 +13,15 @@ async function getGames(req, res) {
 async function getGame(req, res) {
   try {
     const id = req.params.id;
-    const game = await gameService.getGameById(id);
-    if (!game) {
-      throw { status: 404, message: "Jogo não encontrado" };
-    }
-    res.json(game);
-    
+    if (id && mongoose.Types.ObjectId.isValid(id)) {
+      const game = await gameService.getGameById(id);
+      if (!game) {
+        throw { status: 404, message: "Jogo não encontrado" };
+      }
+      res.json(game);
+    } else {
+      res.status(422).json({ message: "ID inválido" });
+    }    
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
@@ -77,12 +59,16 @@ async function postGame(req, res) {
 async function patchGame(req, res) {
   try {
     const id = req.params.id;
-    const game = req.body;
-    if (!game) {
-      throw { status: 400, message: "Jogo é obrigatório" };
+    if (id && mongoose.Types.ObjectId.isValid(id)) {
+      const game = req.body;
+      if (!game) {
+        throw { status: 400, message: "Jogo é obrigatório" };
+      }
+      await gameService.updateGame(game, id);
+      res.send("Jogo atualizado com sucesso");
+    } else {
+      res.status(422).json({ message: "ID inválido" });
     }
-    await gameService.updateGame(game, id);
-    res.send("Jogo atualizado com sucesso");
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
@@ -91,12 +77,12 @@ async function patchGame(req, res) {
 async function deleteGame(req, res) {
   try {
     const id = req.params.id;
-    await gameService.deleteGame(id);
-    res.send("Game deletado com sucesso");
-    // if (id && mongoose.Types.ObjectId.isValid(id)) {
-    // } else {
-    //   res.status(422).json({ message: "ID inválido" });
-    // }
+    if (id && mongoose.Types.ObjectId.isValid(id)) {
+      await gameService.deleteGame(id);
+      res.send("Game deletado com sucesso");
+    } else {
+      res.status(422).json({ message: "ID inválido" });
+    }
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
