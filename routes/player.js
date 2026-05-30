@@ -1,11 +1,11 @@
 import { Router } from "express";
-import playerController from "../controllers/player.js";
+import * as playerController from "../controllers/player.js";
 const router = Router();
 
 router.get("/", playerController.getPlayers);
-router.get("/:id", playerController.getPlayer);
+router.get("/find", playerController.getPlayerByFavoritePosition);
 
-// ADICIONAR ROTA PARA BUSCA VIA OUTRO PARÂMETRO
+router.get("/:id", playerController.getPlayer);
 
 router.post("/", playerController.postPlayer);
 
