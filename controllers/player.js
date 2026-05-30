@@ -1,4 +1,4 @@
-import playerService from "../services/player.js";
+import * as playerService from "../services/player.js";
 import mongoose from "mongoose";
 
 async function getPlayers(req, res) {
@@ -27,7 +27,23 @@ async function getPlayer(req, res) {
   }
 }
 
-// ADICIONAR FUNÇÃO PARA BUSCA VIA OUTRO PARÂMETRO
+async function getPlayerByFavoritePosition(req, res) {
+  try {
+    const favoritePosition = req.query.favoritePosition;
+    if (favoritePosition) {
+      const player =
+        await playerService.getPlayerByFavoritePosition(favoritePosition);
+      if (!player) {
+        throw { status: 404, message: "Jogador não encontrado" };
+      }
+      res.json(player);
+    } else {
+      res.status(422).json({ message: "Posição favorita é obrigatória" });
+    }
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+}
 
 async function postPlayer(req, res) {
   try {
@@ -80,4 +96,11 @@ async function deletePlayer(req, res) {
   }
 }
 
-export { getPlayers, getPlayer, postPlayer, patchPlayer, deletePlayer };
+export {
+  getPlayers,
+  getPlayer,
+  getPlayerByFavoritePosition,
+  postPlayer,
+  patchPlayer,
+  deletePlayer,
+};

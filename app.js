@@ -6,18 +6,19 @@ import participationRoutes from "./routes/participation.js";
 import mongoose from "mongoose";
 import cors from "cors";
 import "dotenv/config";
+import pool from "./config/dbConnect.js"
 
 const app = express();
 const port = 8000;
 
 try {
   app.use(express.json());
+  await pool();
   app.use(cors({ origin: "*" }));
   app.use("/teams", teamRoutes);
   app.use("/players", playerRoutes);
   app.use("/games", gameRoutes);
   app.use("/participations", participationRoutes);
-  await pool();
   console.log("Connected to MongoDB");
 
   mongoose.connection.on("error", (error) => {

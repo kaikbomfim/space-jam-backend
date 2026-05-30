@@ -6,19 +6,22 @@ async function getTeams() {
 }
 
 async function getTeamById(id) {
-  const team = await team.findById(id);
-  return team;
+  const teams = await team.findById(id);
+  return teams;
 }
 
-// ADICIONAR FUNÇÃO PARA BUSCA VIA OUTRO PARÂMETRO
-
-async function createTeam(team) {
-  await team.create(team);
+async function getTeamByName(name) {
+  const teams = await team.find({ name: name });
+  return teams;
 }
 
-async function updateTeam(team, id) {
+async function createTeam(newTeam) {
+  await team.create(newTeam);
+}
+
+async function updateTeam(updatedTeam, id) {
   try {
-    await team.findByIdAndUpdate(id, team);
+    await team.findByIdAndUpdate(id, updatedTeam);
   } catch (error) {
     throw { status: 500, message: "Erro ao atualizar time" };
   }
@@ -32,4 +35,11 @@ async function deleteTeam(id) {
   }
 }
 
-export { getTeams, getTeamById, createTeam, updateTeam, deleteTeam };
+export {
+  getTeams,
+  getTeamById,
+  getTeamByName,
+  createTeam,
+  updateTeam,
+  deleteTeam,
+};

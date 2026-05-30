@@ -5,19 +5,22 @@ async function getPlayers() {
   return players;
 }
 async function getPlayerById(id) {
-  const player = await player.findById(id);
-  return player;
+  const players = await player.findById(id);
+  return players;
 }
 
-// ADICIONAR FUNÇÃO PARA BUSCA VIA OUTRO PARÂMETRO
-
-async function createPlayer(player) {
-  await player.create(player);
+async function getPlayerByFavoritePosition(favoritePosition) {
+  const players = await player.find({ favorite_position: favoritePosition });
+  return players;
 }
 
-async function updatePlayer(player, id) {
+async function createPlayer(newPlayer) {
+  await player.create(newPlayer);
+}
+
+async function updatePlayer(updatedPlayer, id) {
   try {
-    await player.findByIdAndUpdate(id, player);
+    await player.findByIdAndUpdate(id, updatedPlayer);
   } catch (error) {
     throw { status: 500, message: "Erro ao atualizar jogador" };
   }
@@ -31,4 +34,11 @@ async function deletePlayer(id) {
   }
 }
 
-export { getPlayers, getPlayerById, createPlayer, updatePlayer, deletePlayer };
+export {
+  getPlayers,
+  getPlayerById,
+  getPlayerByFavoritePosition,
+  createPlayer,
+  updatePlayer,
+  deletePlayer,
+};
