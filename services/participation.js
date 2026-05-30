@@ -6,15 +6,15 @@ async function getParticipations() {
 }
 
 async function getParticipationById(id) {
-  const participationFound = await participation.findById(id);
-  return participationFound;
+  const participations = await participation.findById(id);
+  return participations;
 }
 
 async function getParticipationsByIds(ids) {
   const filter = {};
-  if (ids.game_id) filter.game_id = ids.game_id;
-  if (ids.team_id) filter.team_id = ids.team_id;
-  if (ids.player_id) filter.player_id = ids.player_id;
+  if (ids.gameId) filter.game_id = ids.gameId;
+  if (ids.teamId) filter.team_id = ids.teamId;
+  if (ids.playerId) filter.player_id = ids.playerId;
   const participations = await participation.find(filter);
   return participations;
 }
@@ -24,19 +24,11 @@ async function createParticipation(newParticipation) {
 }
 
 async function updateParticipation(updatedParticipation, id) {
-  try {
-    await participation.findByIdAndUpdate(id, updatedParticipation);
-  } catch (error) {
-    throw { status: 500, message: "Erro ao atualizar participação" };
-  }
+  await participation.findByIdAndUpdate(id, updatedParticipation);
 }
 
 async function deleteParticipation(id) {
-  try {
-    await participation.findByIdAndDelete(id);
-  } catch (error) {
-    throw { status: 500, message: "Erro ao deletar participação" };
-  }
+  await participation.findByIdAndDelete(id);
 }
 
 export {

@@ -30,9 +30,9 @@ async function getParticipation(req, res) {
 async function getParticipationsByIds(req, res) {
   try {
     const ids = {
-      game_id: req.query.game_id,
-      team_id: req.query.team_id,
-      player_id: req.query.player_id,
+      gameId: req.query.gameId,
+      teamId: req.query.teamId,
+      playerId: req.query.playerId,
     };
     const providedIds = Object.entries(ids).filter(
       ([, value]) => value !== undefined,
