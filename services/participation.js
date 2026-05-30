@@ -1,75 +1,44 @@
-const fs = require("fs");
-const participationsFilePath = "participations.json";
-
-async function readParticipations() {
-  const participations = await fs.promises.readFile(participationsFilePath);
-  return JSON.parse(participations);
-}
+import participation from "../models/participation.js";
 
 async function getParticipations() {
-  const participations = await readParticipations();
+  const participations = await participation.find({});
   return participations;
 }
 
 async function getParticipationById(id) {
-  const participations = await getParticipations();
-  const participationFiltered = participations.filter(
-    (participation) => participation.id == id,
-  )[0];
-  return participationFiltered;
+  const participationFound = await participation.findById(id);
+  return participationFound;
 }
 
-async function createParticipation(participation) {
-  const participations = await getParticipations();
-  const participationsLength = participations.length;
-  const newParticipationId = participationsLength + 1;
-  participations.push({
-    id: newParticipationId,
-    ...participation,
-  });
-  await fs.promises.writeFile(
-    participationsFilePath,
-    JSON.stringify(participations),
-  );
+async function getParticipationsByFilter(filter) {
+  const participations = await participation.find(filter);
+  return participations;
 }
 
-async function updateParticipation(participation, id) {
-  let participations = await getParticipations();
-  const index = participations.findIndex(
-    (participation) => participation.id == id,
-  );
-  if (index === -1) {
-    throw { status: 404, message: "Participação não encontrada" };
+async function createParticipation(data) {
+  await participation.create(data);
+}
+
+async function updateParticipation(data, id) {
+  try {
+    await participation.findByIdAndUpdate(id, data);
+  } catch (error) {
+    throw { status: 500, message: "Erro ao atualizar participação" };
   }
-  const updatedParticipation = {
-    ...participations[index],
-    ...participation,
-  };
-  participations[index] = updatedParticipation;
-  await fs.promises.writeFile(
-    participationsFilePath,
-    JSON.stringify(participations),
-  );
 }
 
 async function deleteParticipation(id) {
-  let participations = await getParticipations();
-  const participationsFiltered = participations.filter(
-    (participation) => participation.id != id,
-  );
-  if (participations.length === participationsFiltered.length) {
-    throw { status: 404, message: "Participação não encontrada" };
+  try {
+    await participation.findByIdAndDelete(id);
+  } catch (error) {
+    throw { status: 500, message: "Erro ao deletar participação" };
   }
-  await fs.promises.writeFile(
-    participationsFilePath,
-    JSON.stringify(participationsFiltered),
-  );
 }
 
-module.exports = {
-  readParticipations,
+export default {
   getParticipations,
   getParticipationById,
+  getParticipationsByFilter,
   createParticipation,
   updateParticipation,
   deleteParticipation,
