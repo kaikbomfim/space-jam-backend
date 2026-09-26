@@ -1,7 +1,11 @@
 import participation from "../models/participation.js";
 
 async function getParticipations() {
-  const participations = await participation.find({});
+  const participations = await participation
+    .find()
+    .populate("game_id", "location status start_date end_date") // game não tem "name"
+    .populate("player_id", "name")
+    .populate("team_id", "name");
   return participations;
 }
 
@@ -15,7 +19,11 @@ async function getParticipationsByIds(ids) {
   if (ids.gameId) filter.game_id = ids.gameId;
   if (ids.teamId) filter.team_id = ids.teamId;
   if (ids.playerId) filter.player_id = ids.playerId;
-  const participations = await participation.find(filter);
+  const participations = await participation
+    .find(filter)
+    .populate("game_id", "location status start_date end_date") // game não tem "name"
+    .populate("player_id", "name")
+    .populate("team_id", "name");
   return participations;
 }
 
@@ -32,10 +40,6 @@ async function deleteParticipation(id) {
 }
 
 export {
-  getParticipations,
-  getParticipationById,
-  getParticipationsByIds,
-  createParticipation,
-  updateParticipation,
-  deleteParticipation,
+  createParticipation, deleteParticipation, getParticipationById, getParticipations, getParticipationsByIds, updateParticipation
 };
+
